@@ -1,0 +1,88 @@
+[
+  {
+    "id": "BA001",
+    "question": "Which bank acts as the 'lender of last resort' for commercial banks in India?",
+    "options": ["State Bank of India", "Reserve Bank of India", "NABARD", "IDBI Bank"],
+    "answer": "Reserve Bank of India",
+    "solution": "RBI, as the central bank, provides emergency funds to commercial banks facing liquidity crises, making it the lender of last resort."
+  },
+  {
+    "id": "BA002",
+    "question": "What does 'Repo Rate' refer to?",
+    "options": [
+      "The rate at which RBI lends short-term funds to commercial banks against securities",
+      "The interest rate offered on savings accounts",
+      "The rate at which banks lend to each other",
+      "The rate charged on international transactions"
+    ],
+    "answer": "The rate at which RBI lends short-term funds to commercial banks against securities",
+    "solution": "Repo (Repurchase) Rate is the rate at which RBI lends money to commercial banks for short durations against government securities, used as a key monetary policy tool."
+  },
+  {
+    "id": "BA003",
+    "question": "What is the full form of NEFT, a common electronic fund transfer system in India?",
+    "options": [
+      "National Electronic Funds Transfer",
+      "Net Electronic Fund Transaction",
+      "National Emergency Fund Transfer",
+      "New Electronic Financial Transfer"
+    ],
+    "answer": "National Electronic Funds Transfer",
+    "solution": "NEFT stands for National Electronic Funds Transfer, a system that enables one-to-one fund transfers between bank accounts in India."
+  },
+  {
+    "id": "BA004",
+    "question": "Which committee's recommendations led to the establishment of the Regional Rural Banks (RRBs) in India?",
+    "options": ["Narasimham Committee", "Narayan Committee", "M. Narasimham (RRB) Committee, 1975", "Rangarajan Committee"],
+    "answer": "M. Narasimham (RRB) Committee, 1975",
+    "solution": "Regional Rural Banks were set up in 1975 based on the recommendations of the Narasimham Working Group, aimed at providing credit facilities to rural areas."
+  },
+  {
+    "id": "BA005",
+    "question": "CRR (Cash Reserve Ratio) refers to:",
+    "options": [
+      "The percentage of a bank's total deposits that must be kept as cash reserve with RBI",
+      "The minimum capital a bank must maintain against risk-weighted assets",
+      "The ratio of loans to deposits in a bank",
+      "The rate of interest on fixed deposits"
+    ],
+    "answer": "The percentage of a bank's total deposits that must be kept as cash reserve with RBI",
+    "solution": "CRR is the minimum percentage of a bank's Net Demand and Time Liabilities (NDTL) that it must maintain as cash reserves with the RBI, used to control money supply and inflation."
+  },
+  {
+    "id": "BA006",
+    "question": "Which of the following is NOT a function of the Reserve Bank of India?",
+    "options": [
+      "Issuing currency notes",
+      "Regulating monetary policy",
+      "Collecting income tax",
+      "Acting as banker to the government"
+    ],
+    "answer": "Collecting income tax",
+    "solution": "Collecting income tax is the function of the Income Tax Department (under CBDT), not RBI. RBI issues currency, regulates monetary policy, and acts as banker to the government and commercial banks."
+  },
+  {
+    "id": "BA007",
+    "question": "What is a 'Non-Performing Asset' (NPA) in banking terms?",
+    "options": [
+      "A loan or advance where interest/principal payment has remained overdue for a specified period (typically 90 days)",
+      "An asset that generates no revenue for the bank at all times",
+      "A fixed deposit that has matured",
+      "A savings account with zero balance"
+    ],
+    "answer": "A loan or advance where interest/principal payment has remained overdue for a specified period (typically 90 days)",
+    "solution": "An asset becomes 'non-performing' when the borrower fails to make interest or principal repayments for a period, generally 90 days, as per RBI norms."
+  },
+  {
+    "id": "BA008",
+    "question": "The 'Basel Norms' primarily deal with which aspect of banking?",
+    "options": [
+      "Bank capital adequacy and risk management standards",
+      "Foreign exchange rate regulation",
+      "Rules for opening new bank branches",
+      "Customer grievance redressal mechanisms"
+    ],
+    "answer": "Bank capital adequacy and risk management standards",
+    "solution": "Basel Norms (Basel I, II, III), formulated by the Basel Committee on Banking Supervision, set international standards for bank capital adequacy, stress testing, and market liquidity risk."
+  }
+]

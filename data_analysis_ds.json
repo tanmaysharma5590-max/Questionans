@@ -1,0 +1,63 @@
+[
+  {
+    "id": "DS001",
+    "question": "In a dataset with values [4, 8, 6, 5, 3, 9, 7], what is the median?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6",
+    "solution": "Sorted: 3,4,5,6,7,8,9. With 7 values, median is the 4th value = 6."
+  },
+  {
+    "id": "DS002",
+    "question": "Which evaluation metric is most appropriate for a highly imbalanced binary classification problem (e.g., fraud detection)?",
+    "options": ["Accuracy", "F1-score", "Mean Squared Error", "R-squared"],
+    "answer": "F1-score",
+    "solution": "In imbalanced datasets, accuracy can be misleading (a model predicting only the majority class still scores high). F1-score balances precision and recall, making it a better metric here."
+  },
+  {
+    "id": "DS003",
+    "question": "What does a p-value of 0.03 in a hypothesis test typically indicate at a 5% significance level?",
+    "options": [
+      "The null hypothesis is accepted",
+      "The result is statistically significant, reject the null hypothesis",
+      "The test is inconclusive",
+      "The sample size is too small"
+    ],
+    "answer": "The result is statistically significant, reject the null hypothesis",
+    "solution": "Since p-value (0.03) < significance level (0.05), we reject the null hypothesis, indicating the result is statistically significant."
+  },
+  {
+    "id": "DS004",
+    "question": "Which technique is used to reduce the dimensionality of data while preserving maximum variance?",
+    "options": ["K-Means Clustering", "Principal Component Analysis (PCA)", "Decision Tree", "Naive Bayes"],
+    "answer": "Principal Component Analysis (PCA)",
+    "solution": "PCA transforms correlated variables into a smaller set of uncorrelated components, capturing maximum variance — used for dimensionality reduction."
+  },
+  {
+    "id": "DS005",
+    "question": "In a normal distribution, approximately what percentage of data lies within 1 standard deviation of the mean?",
+    "options": ["68%", "95%", "99.7%", "50%"],
+    "answer": "68%",
+    "solution": "As per the empirical rule (68-95-99.7 rule), about 68% of data falls within ±1 standard deviation of the mean."
+  },
+  {
+    "id": "DS006",
+    "question": "A model performs very well on training data (98% accuracy) but poorly on test data (65% accuracy). This is an example of:",
+    "options": ["Underfitting", "Overfitting", "Bias", "Regularization"],
+    "answer": "Overfitting",
+    "solution": "High training accuracy but low test accuracy indicates the model has memorized training data (including noise) and fails to generalize — a classic sign of overfitting."
+  },
+  {
+    "id": "DS007",
+    "question": "Which of the following correlation coefficients indicates the strongest linear relationship between two variables?",
+    "options": ["0.2", "-0.85", "0.5", "0.1"],
+    "answer": "-0.85",
+    "solution": "Correlation strength is judged by absolute value, regardless of sign. |-0.85| = 0.85 is closest to 1, indicating the strongest linear relationship (a strong negative correlation)."
+  },
+  {
+    "id": "DS008",
+    "question": "In SQL, which clause is used to filter groups after aggregation (e.g., after using GROUP BY)?",
+    "options": ["WHERE", "HAVING", "FILTER", "ORDER BY"],
+    "answer": "HAVING",
+    "solution": "WHERE filters rows before grouping; HAVING filters groups after aggregation (e.g., 'HAVING COUNT(*) > 5')."
+  }
+]
