@@ -1,0 +1,157 @@
+[
+  {
+    "id": "ML001",
+    "question": "Which of the following is a supervised learning algorithm?",
+    "options": ["K-Means Clustering", "Linear Regression", "PCA", "Apriori Algorithm"],
+    "answer": "Linear Regression",
+    "solution": "Linear Regression learns from labeled data (input features + known output) — a supervised learning task. K-Means, PCA, and Apriori are all unsupervised techniques that don't require labeled outputs."
+  },
+  {
+    "id": "ML002",
+    "question": "In a Random Forest model, what technique is used to introduce diversity among individual decision trees?",
+    "options": [
+      "Bootstrap sampling of data and random feature subset selection at each split",
+      "Training all trees on the exact same data and features",
+      "Using only one decision tree repeatedly",
+      "Removing all categorical features before training"
+    ],
+    "answer": "Bootstrap sampling of data and random feature subset selection at each split",
+    "solution": "Random Forest builds many decision trees, each trained on a bootstrap sample (random sample with replacement) of the data, and at each split considers only a random subset of features — this combination (bagging + feature randomness) reduces correlation between trees and improves generalization."
+  },
+  {
+    "id": "ML003",
+    "question": "What is the main purpose of the activation function in a neural network layer?",
+    "options": [
+      "To normalize the input data before training",
+      "To introduce non-linearity, allowing the network to learn complex, non-linear patterns",
+      "To reduce the number of layers needed",
+      "To initialize the weights randomly"
+    ],
+    "answer": "To introduce non-linearity, allowing the network to learn complex, non-linear patterns",
+    "solution": "Without non-linear activation functions (like ReLU, sigmoid, tanh), stacking multiple linear layers would mathematically collapse into a single linear transformation, no matter how many layers — activation functions let the network model complex, non-linear relationships."
+  },
+  {
+    "id": "ML004",
+    "question": "In gradient descent, what does the 'learning rate' control?",
+    "options": [
+      "The number of features used in the model",
+      "The size of the steps taken towards minimizing the loss function during each update",
+      "The number of training epochs",
+      "The choice of the loss function"
+    ],
+    "answer": "The size of the steps taken towards minimizing the loss function during each update",
+    "solution": "The learning rate scales how large a step is taken in the direction opposite to the gradient during each weight update. Too high can overshoot the minimum (or diverge); too low can make training very slow or get stuck in local minima."
+  },
+  {
+    "id": "ML005",
+    "question": "Which technique combines predictions from multiple different models by training a 'meta-model' on their outputs?",
+    "options": ["Bagging", "Boosting", "Stacking", "Cross-validation"],
+    "answer": "Stacking",
+    "solution": "Stacking (stacked generalization) trains several base models, then uses their predictions as input features to train a final 'meta-model' that learns how to best combine them — distinct from bagging (parallel models on resampled data) and boosting (sequential models correcting prior errors)."
+  },
+  {
+    "id": "ML006",
+    "question": "What distinguishes Gradient Boosting from Random Forest in how trees are built?",
+    "options": [
+      "Gradient Boosting builds trees sequentially, each correcting the errors of the previous ones; Random Forest builds trees independently and in parallel",
+      "Random Forest builds trees sequentially; Gradient Boosting builds them in parallel",
+      "They use identical tree-building processes",
+      "Gradient Boosting cannot be used for regression tasks"
+    ],
+    "answer": "Gradient Boosting builds trees sequentially, each correcting the errors of the previous ones; Random Forest builds trees independently and in parallel",
+    "solution": "Gradient Boosting is a sequential ensemble method — each new tree is trained to correct the residual errors of the combined previous trees. Random Forest is a parallel ensemble (bagging) method where trees are built independently and their results are averaged/voted."
+  },
+  {
+    "id": "ML007",
+    "question": "Why is 'one-hot encoding' commonly used for nominal (unordered) categorical variables before feeding them into most ML algorithms?",
+    "options": [
+      "It converts categories into binary columns, avoiding a false sense of numeric order that simple label encoding could imply",
+      "It reduces the number of categories automatically",
+      "It is required for all types of models, including tree-based models",
+      "It converts categories into a single continuous number"
+    ],
+    "answer": "It converts categories into binary columns, avoiding a false sense of numeric order that simple label encoding could imply",
+    "solution": "Label encoding (e.g., Red=0, Blue=1, Green=2) implies an ordinal relationship that doesn't exist for nominal categories, which can mislead distance/coefficient-based models. One-hot encoding creates separate binary (0/1) columns per category, avoiding this false ordering."
+  },
+  {
+    "id": "ML008",
+    "question": "What is 'early stopping' in the context of training machine learning models?",
+    "options": [
+      "Stopping data collection early",
+      "Halting training when performance on a validation set stops improving, to prevent overfitting",
+      "Using a smaller dataset than originally planned",
+      "Reducing the number of features early in preprocessing"
+    ],
+    "answer": "Halting training when performance on a validation set stops improving, to prevent overfitting",
+    "solution": "Early stopping monitors a validation metric during training and stops the process once it stops improving (or starts worsening), preventing the model from continuing to overfit the training data beyond the point of best generalization."
+  },
+  {
+    "id": "ML009",
+    "question": "In a decision tree, which metric is commonly used to decide the best feature to split on, based on reducing 'impurity'?",
+    "options": ["Gini Impurity or Information Gain (Entropy)", "R-squared", "Mean Absolute Error", "Silhouette Score"],
+    "answer": "Gini Impurity or Information Gain (Entropy)",
+    "solution": "Decision trees choose splits that most reduce impurity in the resulting child nodes, commonly measured via Gini Impurity or Information Gain (based on Entropy) — both quantify how 'mixed' the class labels are within a node."
+  },
+  {
+    "id": "ML010",
+    "question": "What problem does the 'vanishing gradient' issue cause in deep neural networks, particularly with sigmoid/tanh activations?",
+    "options": [
+      "Gradients become excessively large, causing unstable training",
+      "Gradients become very small in early layers during backpropagation, causing those layers to learn extremely slowly or not at all",
+      "The model trains too quickly and overfits immediately",
+      "It only affects the output layer, never hidden layers"
+    ],
+    "answer": "Gradients become very small in early layers during backpropagation, causing those layers to learn extremely slowly or not at all",
+    "solution": "With activations like sigmoid/tanh, gradients can shrink multiplicatively as they're backpropagated through many layers, becoming nearly zero by the time they reach early layers — effectively stalling learning in those layers. ReLU and its variants, along with techniques like batch normalization and residual connections, help mitigate this."
+  },
+  {
+    "id": "ML011",
+    "question": "What is the main goal of hyperparameter tuning (e.g., using Grid Search or Random Search)?",
+    "options": [
+      "To find the model parameters learned automatically during training, like weights",
+      "To find the best configuration of settings that are set BEFORE training (like learning rate, tree depth, number of estimators) to optimize model performance",
+      "To clean the dataset of missing values",
+      "To select which rows to include in the training set"
+    ],
+    "answer": "To find the best configuration of settings that are set BEFORE training (like learning rate, tree depth, number of estimators) to optimize model performance",
+    "solution": "Hyperparameters (learning rate, max depth, number of trees, etc.) are set before training begins and are not learned from data directly — hyperparameter tuning systematically searches combinations of these settings (via grid, random, or Bayesian search) to find the configuration that yields the best validation performance."
+  },
+  {
+    "id": "ML012",
+    "question": "Which evaluation metric is most appropriate for a regression problem predicting house prices?",
+    "options": ["Accuracy", "F1-score", "Root Mean Squared Error (RMSE)", "Precision"],
+    "answer": "Root Mean Squared Error (RMSE)",
+    "solution": "Accuracy, F1-score, and Precision are classification metrics based on discrete class labels. RMSE measures the average magnitude of prediction error in the same units as the target variable, making it appropriate for continuous regression outputs like house prices."
+  },
+  {
+    "id": "ML013",
+    "question": "What is the purpose of 'dropout' as a regularization technique in neural networks?",
+    "options": [
+      "Randomly deactivating a fraction of neurons during each training step, forcing the network to not rely too heavily on any single neuron, reducing overfitting",
+      "Permanently removing neurons from the final trained model",
+      "Increasing the learning rate during training",
+      "Adding more layers to the network"
+    ],
+    "answer": "Randomly deactivating a fraction of neurons during each training step, forcing the network to not rely too heavily on any single neuron, reducing overfitting",
+    "solution": "Dropout randomly 'turns off' a fraction of neurons (e.g., 20-50%) during each forward/backward pass in training. This prevents co-adaptation of neurons and acts as an implicit ensemble, reducing overfitting. At inference time, all neurons are used (with appropriate scaling)."
+  },
+  {
+    "id": "ML014",
+    "question": "In an imbalanced classification task, which resampling technique involves reducing the number of majority-class samples?",
+    "options": ["Oversampling", "Undersampling", "SMOTE", "Bootstrapping"],
+    "answer": "Undersampling",
+    "solution": "Undersampling reduces the number of majority-class instances to balance the class distribution, potentially losing some information. Oversampling and SMOTE instead increase the minority class instead of reducing the majority."
+  },
+  {
+    "id": "ML015",
+    "question": "What does 'feature importance' from a trained Random Forest or Gradient Boosting model typically indicate?",
+    "options": [
+      "The exact causal effect of each feature on the target",
+      "A relative measure of how much each feature contributed to reducing impurity/error across the ensemble's splits, useful for understanding model behavior",
+      "The correlation between features",
+      "The number of missing values in each feature"
+    ],
+    "answer": "A relative measure of how much each feature contributed to reducing impurity/error across the ensemble's splits, useful for understanding model behavior",
+    "solution": "Feature importance scores (e.g., based on total impurity reduction across all trees/splits where a feature is used) give a relative ranking of how influential each feature was for the model's predictions — but they indicate association with the model's decisions, not necessarily true causal effect."
+  }
+]

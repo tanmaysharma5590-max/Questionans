@@ -1,0 +1,147 @@
+[
+  {
+    "id": "PY001",
+    "question": "In pandas, what is the difference between `df.loc[]` and `df.iloc[]`?",
+    "options": [
+      "loc uses label-based indexing; iloc uses integer position-based indexing",
+      "loc is faster than iloc in all cases",
+      "iloc can only be used on Series, not DataFrames",
+      "There is no difference; they are aliases of each other"
+    ],
+    "answer": "loc uses label-based indexing; iloc uses integer position-based indexing",
+    "solution": "`.loc[]` selects rows/columns by their label (index name or column name), while `.iloc[]` selects by integer position (0-based), regardless of the actual index labels."
+  },
+  {
+    "id": "PY002",
+    "question": "What does the following code return?\n```python\nimport numpy as np\na = np.array([1, 2, 3, 4])\nprint(a[a > 2])\n```",
+    "options": ["[3, 4]", "[1, 2]", "[True, True]", "Error"],
+    "answer": "[3, 4]",
+    "solution": "`a > 2` creates a boolean mask `[False, False, True, True]`. Using this mask to index `a` (boolean indexing) returns only the elements where the condition is True: `[3, 4]`."
+  },
+  {
+    "id": "PY003",
+    "question": "In Python, what is the key difference between a list and a tuple?",
+    "options": [
+      "Lists are mutable, tuples are immutable",
+      "Tuples can only store numbers",
+      "Lists cannot be indexed",
+      "Tuples are always faster to create than lists in every scenario without exception"
+    ],
+    "answer": "Lists are mutable, tuples are immutable",
+    "solution": "Lists can be modified after creation (append, remove, change elements), while tuples, once created, cannot have their contents changed — this immutability makes tuples hashable (usable as dict keys) while lists are not."
+  },
+  {
+    "id": "PY004",
+    "question": "Which pandas method is used to handle missing values by filling them with a specified value?",
+    "options": ["dropna()", "fillna()", "isnull()", "replace_na()"],
+    "answer": "fillna()",
+    "solution": "`fillna(value)` replaces NaN/missing values in a DataFrame or Series with the specified value (or a computed value like mean/median). `dropna()` removes rows/columns with missing values instead."
+  },
+  {
+    "id": "PY005",
+    "question": "What will `list(range(2, 10, 2))` output?",
+    "options": ["[2, 4, 6, 8]", "[2, 4, 6, 8, 10]", "[2, 3, 4, 5, 6, 7, 8, 9]", "[0, 2, 4, 6, 8]"],
+    "answer": "[2, 4, 6, 8]",
+    "solution": "`range(start, stop, step)` generates numbers starting at 2, incrementing by 2, stopping before 10 (exclusive). Result: 2, 4, 6, 8."
+  },
+  {
+    "id": "PY006",
+    "question": "In scikit-learn, which method is used to both fit a model/transformer to the data AND transform it in a single step?",
+    "options": ["fit()", "transform()", "fit_transform()", "predict()"],
+    "answer": "fit_transform()",
+    "solution": "`fit_transform()` combines `fit()` (learning parameters like mean/std from the data) and `transform()` (applying the transformation) in one call — commonly used with scalers, encoders, and vectorizers."
+  },
+  {
+    "id": "PY007",
+    "question": "What is the purpose of `GROUP BY` when used with `groupby()` in pandas, e.g. `df.groupby('category')['sales'].sum()`?",
+    "options": [
+      "It sorts the DataFrame alphabetically by category",
+      "It splits data into groups based on the 'category' column, then applies sum() to the 'sales' column within each group",
+      "It removes duplicate categories",
+      "It merges two DataFrames"
+    ],
+    "answer": "It splits data into groups based on the 'category' column, then applies sum() to the 'sales' column within each group",
+    "solution": "`groupby()` follows the 'split-apply-combine' pattern: it splits the data into groups by the specified column, applies an aggregation function (here, sum) to each group, and combines the results into a summarized output."
+  },
+  {
+    "id": "PY008",
+    "question": "Which NumPy function is used to create an array of evenly spaced values between a start and end, with a specified NUMBER of points?",
+    "options": ["np.arange()", "np.linspace()", "np.zeros()", "np.random()"],
+    "answer": "np.linspace()",
+    "solution": "`np.linspace(start, stop, num)` generates `num` evenly spaced values between start and stop (inclusive by default). `np.arange()` instead uses a step size, not a fixed count of points."
+  },
+  {
+    "id": "PY009",
+    "question": "What does the `axis` parameter control in `df.drop(columns=['A'], axis=1)` vs `df.mean(axis=0)`?",
+    "options": [
+      "axis=0 refers to operating along rows (down each column); axis=1 refers to operating along columns (across each row)",
+      "axis has no functional effect in pandas",
+      "axis=1 always refers to the index/row labels",
+      "axis controls the color of the output"
+    ],
+    "answer": "axis=0 refers to operating along rows (down each column); axis=1 refers to operating along columns (across each row)",
+    "solution": "In pandas, axis=0 means the operation moves down the rows (i.e., computes per-column, like `df.mean(axis=0)` giving column means), while axis=1 means the operation moves across the columns (per-row), and for `drop()`, axis=1 specifically indicates dropping columns rather than rows."
+  },
+  {
+    "id": "PY010",
+    "question": "In Python, what is a list comprehension equivalent to `[x**2 for x in range(5) if x % 2 == 0]`?",
+    "options": [
+      "A list of squares of even numbers from 0 to 4: [0, 4, 16]",
+      "A list of all squares from 0 to 4: [0, 1, 4, 9, 16]",
+      "A list of odd numbers only: [1, 9]",
+      "A syntax error"
+    ],
+    "answer": "A list of squares of even numbers from 0 to 4: [0, 4, 16]",
+    "solution": "range(5) gives 0,1,2,3,4. The filter `if x % 2 == 0` keeps only even x: 0, 2, 4. Squaring each: 0²=0, 2²=4, 4²=16. Result: [0, 4, 16]."
+  },
+  {
+    "id": "PY011",
+    "question": "Which matplotlib/seaborn plot type is most appropriate for visualizing the distribution of a single continuous numerical variable?",
+    "options": ["Bar chart", "Histogram or KDE plot", "Pie chart", "Scatter plot"],
+    "answer": "Histogram or KDE plot",
+    "solution": "A histogram bins continuous data and shows frequency counts per bin, while a KDE (Kernel Density Estimate) plot shows a smoothed distribution curve — both are standard tools for visualizing the distribution of a single continuous variable."
+  },
+  {
+    "id": "PY012",
+    "question": "What is the output of the following code?\n```python\ndef func(a, b=5):\n    return a + b\nprint(func(3))\n```",
+    "options": ["8", "3", "Error - missing argument", "5"],
+    "answer": "8",
+    "solution": "`b=5` is a default parameter value used when `b` is not explicitly provided. Calling `func(3)` uses a=3, b=5 (default), so it returns 3+5=8."
+  },
+  {
+    "id": "PY013",
+    "question": "In scikit-learn, why is it important to fit a `StandardScaler` only on the training data and NOT on the test data?",
+    "options": [
+      "It doesn't matter, fitting on either gives the same result",
+      "Fitting on test data would leak information from the test set into the training process, causing overly optimistic performance estimates (data leakage)",
+      "StandardScaler cannot be applied to test data at all",
+      "It makes the code run faster"
+    ],
+    "answer": "Fitting on test data would leak information from the test set into the training process, causing overly optimistic performance estimates (data leakage)",
+    "solution": "The scaler's parameters (mean, std) should be learned ONLY from training data, then applied (via `.transform()`) to both train and test sets. Fitting on test data lets information about the test distribution 'leak' into preprocessing, inflating evaluation metrics unrealistically."
+  },
+  {
+    "id": "PY014",
+    "question": "What does `df['col'].value_counts()` return in pandas?",
+    "options": [
+      "The sum of all values in the column",
+      "A Series showing the frequency count of each unique value in the column, sorted in descending order by default",
+      "The total number of rows in the DataFrame",
+      "The data type of the column"
+    ],
+    "answer": "A Series showing the frequency count of each unique value in the column, sorted in descending order by default",
+    "solution": "`value_counts()` counts how many times each unique value appears in the Series/column and returns the counts sorted from most to least frequent by default — very useful for quickly checking class distribution."
+  },
+  {
+    "id": "PY015",
+    "question": "What is the primary difference between `==` and `is` when comparing two Python objects?",
+    "options": [
+      "`==` checks value equality; `is` checks whether two references point to the same object in memory",
+      "They are always interchangeable",
+      "`is` checks value equality; `==` checks memory identity",
+      "`==` only works on integers"
+    ],
+    "answer": "`==` checks value equality; `is` checks whether two references point to the same object in memory",
+    "solution": "`==` compares whether the VALUES of two objects are equal (can be overridden by `__eq__`). `is` compares whether both variables refer to the exact same object in memory (identity comparison) — two equal-valued lists, for example, are usually `==` but not `is` to each other."
+  }
+]

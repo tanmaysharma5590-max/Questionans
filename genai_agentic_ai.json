@@ -1,0 +1,122 @@
+[
+  {
+    "id": "GA001",
+    "question": "What does 'RAG' (Retrieval-Augmented Generation) refer to in the context of Large Language Models (LLMs)?",
+    "options": [
+      "A technique to compress model weights",
+      "A method where the LLM retrieves relevant external documents/data at inference time and uses them as context to generate more accurate, grounded responses",
+      "A type of neural network layer",
+      "A method to train the LLM from scratch on a new dataset"
+    ],
+    "answer": "A method where the LLM retrieves relevant external documents/data at inference time and uses them as context to generate more accurate, grounded responses",
+    "solution": "RAG combines a retrieval step (fetching relevant chunks of external knowledge, often via vector search) with a generation step (feeding that retrieved content as context to the LLM), which reduces hallucination and allows the model to answer using up-to-date or domain-specific information it wasn't necessarily trained on."
+  },
+  {
+    "id": "GA002",
+    "question": "What is a 'vector database' (e.g., Pinecone, FAISS, Chroma) primarily used for in GenAI applications?",
+    "options": [
+      "Storing raw text only in plain string format",
+      "Storing and efficiently searching high-dimensional embedding vectors, enabling similarity search (e.g., for RAG pipelines)",
+      "Storing only image files",
+      "Replacing the need for a traditional relational database entirely in every application"
+    ],
+    "answer": "Storing and efficiently searching high-dimensional embedding vectors, enabling similarity search (e.g., for RAG pipelines)",
+    "solution": "A vector database stores numerical embedding representations of text/data and supports fast approximate nearest-neighbor search, allowing systems to quickly find the most semantically similar pieces of content to a given query — a core component of RAG systems."
+  },
+  {
+    "id": "GA003",
+    "question": "What does 'temperature' control when generating text from a Large Language Model?",
+    "options": [
+      "The physical hardware temperature of the GPU",
+      "The randomness/creativity of the output — low temperature makes output more deterministic/focused, high temperature makes it more random/diverse",
+      "The number of tokens generated",
+      "The size of the model's context window"
+    ],
+    "answer": "The randomness/creativity of the output — low temperature makes output more deterministic/focused, high temperature makes it more random/diverse",
+    "solution": "Temperature scales the probability distribution over the next token before sampling. A low temperature (e.g., 0.1) sharpens the distribution towards the most likely tokens (more deterministic, focused output), while a high temperature (e.g., 1.5) flattens it, increasing randomness and diversity in generated text."
+  },
+  {
+    "id": "GA004",
+    "question": "In the context of 'Agentic AI', what distinguishes an AI agent from a simple LLM chatbot?",
+    "options": [
+      "An agent can only respond with pre-written templates",
+      "An agent can autonomously plan a sequence of steps, use external tools/APIs, observe results, and iterate towards a goal — not just respond to a single prompt",
+      "Agents cannot use any external tools",
+      "There is no meaningful difference"
+    ],
+    "answer": "An agent can autonomously plan a sequence of steps, use external tools/APIs, observe results, and iterate towards a goal — not just respond to a single prompt",
+    "solution": "An AI agent typically follows a loop of reasoning, deciding on an action (like calling a tool/API), observing the result, and repeating until a goal is achieved — going beyond a single input-output exchange to autonomously handle multi-step tasks, unlike a basic chatbot that just replies to each message independently."
+  },
+  {
+    "id": "GA005",
+    "question": "What is 'prompt engineering'?",
+    "options": [
+      "Writing code to train a new LLM architecture from scratch",
+      "The practice of carefully designing input prompts (instructions, examples, structure) to elicit better, more accurate, or more useful outputs from an LLM",
+      "A hardware optimization technique for GPUs",
+      "A method to compress LLM weights for deployment"
+    ],
+    "answer": "The practice of carefully designing input prompts (instructions, examples, structure) to elicit better, more accurate, or more useful outputs from an LLM",
+    "solution": "Prompt engineering involves techniques like providing clear instructions, few-shot examples, specifying output format, or breaking tasks into steps (chain-of-thought), all aimed at guiding a pre-trained LLM to produce more accurate and useful responses without changing its underlying weights."
+  },
+  {
+    "id": "GA006",
+    "question": "What is the main difference between fine-tuning an LLM and using few-shot prompting?",
+    "options": [
+      "Fine-tuning updates the model's internal weights using additional training data; few-shot prompting provides examples within the prompt itself without changing the model's weights",
+      "They are exactly the same technique",
+      "Few-shot prompting always requires more computational resources than fine-tuning",
+      "Fine-tuning cannot improve model performance on specific tasks"
+    ],
+    "answer": "Fine-tuning updates the model's internal weights using additional training data; few-shot prompting provides examples within the prompt itself without changing the model's weights",
+    "solution": "Fine-tuning involves further training the model's parameters on a task-specific dataset, permanently updating its weights. Few-shot prompting instead includes a handful of example input-output pairs directly in the prompt at inference time, leveraging the model's existing in-context learning ability without any weight updates."
+  },
+  {
+    "id": "GA007",
+    "question": "What is 'hallucination' in the context of Large Language Models?",
+    "options": [
+      "When the model refuses to answer a question",
+      "When the model generates plausible-sounding but factually incorrect or fabricated information, stated with apparent confidence",
+      "A technique to improve model creativity intentionally",
+      "A type of GPU memory error"
+    ],
+    "answer": "When the model generates plausible-sounding but factually incorrect or fabricated information, stated with apparent confidence",
+    "solution": "Hallucination refers to an LLM producing content that sounds fluent and confident but is factually wrong, fabricated, or not grounded in any real source — a key challenge that techniques like RAG (grounding responses in retrieved real documents) aim to reduce."
+  },
+  {
+    "id": "GA008",
+    "question": "In an agentic AI workflow using 'function calling' or 'tool use', what happens when the LLM decides to call a tool?",
+    "options": [
+      "The LLM directly executes code on the underlying operating system with no oversight",
+      "The LLM outputs a structured request (e.g., function name and arguments) which the surrounding application/orchestrator executes, then feeds the result back to the LLM as context",
+      "The conversation immediately ends",
+      "Tool use is only theoretical and not implemented in real systems"
+    ],
+    "answer": "The LLM outputs a structured request (e.g., function name and arguments) which the surrounding application/orchestrator executes, then feeds the result back to the LLM as context",
+    "solution": "The LLM itself doesn't directly execute code — it generates a structured output (like a JSON object specifying a function name and parameters) indicating it wants to call a tool. The orchestrating application executes that tool/function and returns the result to the LLM, which then uses it to continue reasoning or respond."
+  },
+  {
+    "id": "GA009",
+    "question": "What is the purpose of 'chunking' when preparing documents for a RAG (Retrieval-Augmented Generation) pipeline?",
+    "options": [
+      "To delete irrelevant documents entirely",
+      "To split large documents into smaller, manageable pieces so that embeddings can be generated and relevant, appropriately-sized context can be retrieved for the LLM",
+      "To convert text into images",
+      "To translate documents into multiple languages"
+    ],
+    "answer": "To split large documents into smaller, manageable pieces so that embeddings can be generated and relevant, appropriately-sized context can be retrieved for the LLM",
+    "solution": "Since LLMs have a limited context window and embeddings work best on focused chunks of text, documents are split ('chunked') into smaller passages (e.g., a few hundred tokens each, often with overlap). Each chunk is embedded and indexed separately, so retrieval can return the most relevant, appropriately-sized pieces of context rather than entire lengthy documents."
+  },
+  {
+    "id": "GA010",
+    "question": "What does 'context window' refer to in the context of LLMs?",
+    "options": [
+      "The physical screen size used to display the chat",
+      "The maximum number of tokens (input + output combined) the model can process/attend to in a single request",
+      "The number of users that can chat with the model simultaneously",
+      "The time window during which the model was trained"
+    ],
+    "answer": "The maximum number of tokens (input + output combined) the model can process/attend to in a single request",
+    "solution": "The context window defines the maximum amount of text (measured in tokens) that an LLM can consider at once — including the prompt, any retrieved context, conversation history, and the generated response. Content beyond this limit must be truncated or summarized."
+  }
+]

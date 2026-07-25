@@ -1,0 +1,122 @@
+[
+  {
+    "id": "DL001",
+    "question": "What is the primary architectural advantage of a Convolutional Neural Network (CNN) over a fully-connected network for image data?",
+    "options": [
+      "CNNs use weight sharing and local receptive fields (convolutional filters), drastically reducing parameters while capturing spatial patterns",
+      "CNNs cannot process color images",
+      "CNNs require no training data",
+      "CNNs always have fewer layers than fully-connected networks"
+    ],
+    "answer": "CNNs use weight sharing and local receptive fields (convolutional filters), drastically reducing parameters while capturing spatial patterns",
+    "solution": "CNNs apply the same small filter (kernel) across different spatial locations of an image (weight sharing), capturing local patterns like edges and textures with far fewer parameters than a fully-connected layer would need, while also being naturally suited to spatial data."
+  },
+  {
+    "id": "DL002",
+    "question": "In an RNN (Recurrent Neural Network), what is the key architectural feature that allows it to process sequential data?",
+    "options": [
+      "It has no hidden state at all",
+      "It maintains a hidden state that is updated at each time step and passed forward, allowing information from previous steps to influence future outputs",
+      "It processes the entire sequence in a single, non-sequential step like a CNN",
+      "It uses only convolutional filters"
+    ],
+    "answer": "It maintains a hidden state that is updated at each time step and passed forward, allowing information from previous steps to influence future outputs",
+    "solution": "RNNs process sequences one element at a time, maintaining a hidden state vector that gets updated at each step and carries forward information from earlier in the sequence — this is what allows them to model dependencies across time/sequence positions."
+  },
+  {
+    "id": "DL003",
+    "question": "What problem do LSTM (Long Short-Term Memory) networks primarily solve compared to vanilla RNNs?",
+    "options": [
+      "They eliminate the need for any activation functions",
+      "They mitigate the vanishing gradient problem, allowing the network to better learn long-range dependencies in sequences",
+      "They remove the need for a hidden state",
+      "They can only be used for image data, not text"
+    ],
+    "answer": "They mitigate the vanishing gradient problem, allowing the network to better learn long-range dependencies in sequences",
+    "solution": "LSTMs introduce gating mechanisms (input, forget, output gates) and a cell state that allow gradients to flow more easily across many time steps, addressing the vanishing gradient problem that limits vanilla RNNs from learning long-range dependencies."
+  },
+  {
+    "id": "DL004",
+    "question": "What is the core innovation of the Transformer architecture (as introduced in 'Attention Is All You Need') that allows it to outperform RNNs on many sequence tasks?",
+    "options": [
+      "It processes sequences strictly one token at a time like an RNN",
+      "The self-attention mechanism, which lets the model weigh the relevance of all positions in a sequence to each other in parallel, without recurrence",
+      "It only works with numeric, non-textual data",
+      "It has no concept of positional information"
+    ],
+    "answer": "The self-attention mechanism, which lets the model weigh the relevance of all positions in a sequence to each other in parallel, without recurrence",
+    "solution": "Self-attention allows each token in a sequence to directly attend to (weigh the importance of) every other token, capturing long-range dependencies without the sequential bottleneck of RNNs — and because there's no recurrence, computation for different positions can be parallelized, making training much faster."
+  },
+  {
+    "id": "DL005",
+    "question": "In a neural network, why is the ReLU activation function (max(0, x)) generally preferred over sigmoid in deep hidden layers?",
+    "options": [
+      "ReLU always outputs values between 0 and 1",
+      "ReLU helps mitigate the vanishing gradient problem since its gradient is either 0 or 1 (not shrinking towards zero for large inputs), and is computationally cheaper",
+      "ReLU cannot be used in convolutional networks",
+      "Sigmoid trains faster than ReLU in deep networks"
+    ],
+    "answer": "ReLU helps mitigate the vanishing gradient problem since its gradient is either 0 or 1 (not shrinking towards zero for large inputs), and is computationally cheaper",
+    "solution": "Sigmoid saturates for large positive/negative inputs, causing gradients to shrink towards zero (vanishing gradients) during backpropagation. ReLU's gradient is a constant 1 for positive inputs (and 0 for negative), which helps gradients flow better through deep networks, and it's cheaper to compute than exponential-based functions."
+  },
+  {
+    "id": "DL006",
+    "question": "What does 'batch normalization' do in a neural network training pipeline?",
+    "options": [
+      "It removes the need for backpropagation entirely",
+      "It normalizes the inputs to a layer (per mini-batch) to have consistent mean and variance, which stabilizes and speeds up training",
+      "It reduces the number of training examples needed to zero",
+      "It converts categorical labels into numeric ones"
+    ],
+    "answer": "It normalizes the inputs to a layer (per mini-batch) to have consistent mean and variance, which stabilizes and speeds up training",
+    "solution": "Batch normalization normalizes the activations of a layer across each mini-batch (to roughly zero mean, unit variance, then rescales with learnable parameters), which reduces internal covariate shift, allows higher learning rates, and generally speeds up and stabilizes training."
+  },
+  {
+    "id": "DL007",
+    "question": "In the context of a Transformer, what is the role of 'positional encoding'?",
+    "options": [
+      "It replaces the need for an attention mechanism entirely",
+      "Since self-attention has no inherent notion of token order, positional encoding injects information about each token's position in the sequence",
+      "It encodes the final output labels",
+      "It is used only during inference, never during training"
+    ],
+    "answer": "Since self-attention has no inherent notion of token order, positional encoding injects information about each token's position in the sequence",
+    "solution": "Unlike RNNs, self-attention treats input tokens as an unordered set with respect to position — it has no built-in sense of sequence order. Positional encodings (often sinusoidal or learned) are added to token embeddings to give the model information about where each token sits in the sequence."
+  },
+  {
+    "id": "DL008",
+    "question": "What is 'transfer learning' in deep learning?",
+    "options": [
+      "Training a model from scratch on a completely new task every time",
+      "Taking a model pre-trained on one (often large) dataset/task and fine-tuning it on a new, often smaller, related task, leveraging previously learned features",
+      "Transferring data between different databases",
+      "A technique used only in reinforcement learning"
+    ],
+    "answer": "Taking a model pre-trained on one (often large) dataset/task and fine-tuning it on a new, often smaller, related task, leveraging previously learned features",
+    "solution": "Transfer learning reuses the weights/features learned by a model on a large source dataset (e.g., ImageNet-trained CNNs, or large language models) and adapts (fine-tunes) it to a new target task, which is especially useful when the target task has limited labeled data."
+  },
+  {
+    "id": "DL009",
+    "question": "What is the purpose of a 'loss function' in training a neural network?",
+    "options": [
+      "To visualize the network architecture",
+      "To quantify the difference between the model's predictions and the true target values, providing the signal that gradient descent uses to update weights",
+      "To determine the number of layers in the network",
+      "To store the training data"
+    ],
+    "answer": "To quantify the difference between the model's predictions and the true target values, providing the signal that gradient descent uses to update weights",
+    "solution": "The loss function (e.g., cross-entropy for classification, MSE for regression) measures how far off the model's predictions are from the true labels. Its gradient with respect to the model's weights is what backpropagation uses to update those weights in the direction that reduces the loss."
+  },
+  {
+    "id": "DL010",
+    "question": "In image classification with CNNs, what is the role of a pooling layer (e.g., Max Pooling)?",
+    "options": [
+      "To add more trainable parameters to the network",
+      "To downsample the spatial dimensions of feature maps, reducing computation and providing some translation invariance",
+      "To convert images into text descriptions",
+      "To replace the need for convolutional layers entirely"
+    ],
+    "answer": "To downsample the spatial dimensions of feature maps, reducing computation and providing some translation invariance",
+    "solution": "Pooling layers (like Max Pooling) reduce the spatial size (height/width) of feature maps by summarizing regions (e.g., taking the max value in each 2×2 patch), which reduces the number of computations in later layers and makes the representation somewhat robust to small translations/shifts in the input."
+  }
+]

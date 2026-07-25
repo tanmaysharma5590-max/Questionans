@@ -1,0 +1,172 @@
+[
+  {
+    "id": "SQL001",
+    "question": "What is the difference between `INNER JOIN` and `LEFT JOIN`?",
+    "options": [
+      "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from the left table plus matched rows from the right (NULL where no match)",
+      "They always return the same result",
+      "LEFT JOIN returns only rows from the right table",
+      "INNER JOIN can only be used with one table"
+    ],
+    "answer": "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from the left table plus matched rows from the right (NULL where no match)",
+    "solution": "INNER JOIN keeps only rows where the join condition matches in BOTH tables. LEFT JOIN keeps ALL rows from the left table regardless of a match, filling in NULLs for right-table columns when there's no matching row."
+  },
+  {
+    "id": "SQL002",
+    "question": "Given a table `Employees(id, name, department, salary)`, which query finds the department-wise average salary, but only for departments where the average salary exceeds 50000?",
+    "options": [
+      "SELECT department, AVG(salary) FROM Employees WHERE AVG(salary) > 50000 GROUP BY department;",
+      "SELECT department, AVG(salary) FROM Employees GROUP BY department HAVING AVG(salary) > 50000;",
+      "SELECT department, AVG(salary) FROM Employees GROUP BY department WHERE AVG(salary) > 50000;",
+      "SELECT department FROM Employees HAVING salary > 50000 GROUP BY department;"
+    ],
+    "answer": "SELECT department, AVG(salary) FROM Employees GROUP BY department HAVING AVG(salary) > 50000;",
+    "solution": "WHERE filters rows BEFORE aggregation and cannot reference aggregate functions like AVG(). HAVING filters groups AFTER aggregation, which is required here since we're filtering on the aggregated average salary."
+  },
+  {
+    "id": "SQL003",
+    "question": "What does the SQL `RANK()` window function do differently from `ROW_NUMBER()` when there are ties in the ordering column?",
+    "options": [
+      "RANK() gives the same rank to tied rows and skips the next rank number(s); ROW_NUMBER() always assigns unique sequential numbers even for ties",
+      "They behave identically in all cases",
+      "ROW_NUMBER() skips numbers for ties; RANK() does not",
+      "RANK() can only be used without an ORDER BY clause"
+    ],
+    "answer": "RANK() gives the same rank to tied rows and skips the next rank number(s); ROW_NUMBER() always assigns unique sequential numbers even for ties",
+    "solution": "For tied values, RANK() assigns the same rank to each tied row, then skips the subsequent rank(s) (e.g., 1,2,2,4). ROW_NUMBER() ignores ties and assigns a unique, strictly increasing number to every row (e.g., 1,2,3,4), even if values are equal."
+  },
+  {
+    "id": "SQL004",
+    "question": "Which SQL clause is used to remove duplicate rows from a result set?",
+    "options": ["UNIQUE", "DISTINCT", "REMOVE DUPLICATES", "FILTER"],
+    "answer": "DISTINCT",
+    "solution": "`SELECT DISTINCT column FROM table;` returns only unique values, eliminating duplicate rows from the result set."
+  },
+  {
+    "id": "SQL005",
+    "question": "In SQL, what is the purpose of a self-join?",
+    "options": [
+      "Joining a table to itself, typically used to compare rows within the same table (e.g., finding employees who share the same manager)",
+      "Joining two completely unrelated tables",
+      "A join that always returns zero rows",
+      "A join that automatically deletes duplicate rows"
+    ],
+    "answer": "Joining a table to itself, typically used to compare rows within the same table (e.g., finding employees who share the same manager)",
+    "solution": "A self-join treats the same table as if it were two separate tables (using aliases) to compare rows within it — commonly used for hierarchical data, like finding an employee's manager who is also listed in the same Employees table."
+  },
+  {
+    "id": "SQL006",
+    "question": "What will the following query return?\n```sql\nSELECT COUNT(*) FROM Orders WHERE customer_id IS NULL;\n```",
+    "options": [
+      "The count of orders where customer_id equals 0",
+      "The count of orders where customer_id is missing/unknown (NULL)",
+      "An error, since IS NULL is invalid syntax",
+      "The total number of rows in the Orders table"
+    ],
+    "answer": "The count of orders where customer_id is missing/unknown (NULL)",
+    "solution": "`IS NULL` specifically checks for NULL (missing/unknown) values — it cannot be checked using `= NULL` because NULL is not comparable using standard equality. This query counts rows where customer_id has no value."
+  },
+  {
+    "id": "SQL007",
+    "question": "Which SQL window function calculates a running total (cumulative sum) of a column ordered by date?",
+    "options": [
+      "SUM(amount) OVER (ORDER BY date)",
+      "SUM(amount) GROUP BY date",
+      "TOTAL(amount) ORDER BY date",
+      "CUMSUM(amount)"
+    ],
+    "answer": "SUM(amount) OVER (ORDER BY date)",
+    "solution": "`SUM(amount) OVER (ORDER BY date)` is a window function that computes a running/cumulative sum, adding up 'amount' for all rows up to and including the current row when ordered by date, without collapsing rows like GROUP BY would."
+  },
+  {
+    "id": "SQL008",
+    "question": "What is the key difference between `UNION` and `UNION ALL` in SQL?",
+    "options": [
+      "UNION removes duplicate rows from the combined result; UNION ALL keeps all rows including duplicates",
+      "UNION ALL is always slower and less commonly used",
+      "UNION can only combine tables with the same name",
+      "There is no difference"
+    ],
+    "answer": "UNION removes duplicate rows from the combined result; UNION ALL keeps all rows including duplicates",
+    "solution": "UNION combines result sets from two queries and removes duplicate rows (requiring an internal sort/dedup step, making it slower). UNION ALL simply concatenates all rows from both queries, including duplicates, and is generally faster."
+  },
+  {
+    "id": "SQL009",
+    "question": "Given `Students(id, name, marks)`, which query finds the student(s) with the SECOND highest marks?",
+    "options": [
+      "SELECT MAX(marks) FROM Students WHERE marks < (SELECT MAX(marks) FROM Students);",
+      "SELECT marks FROM Students ORDER BY marks DESC LIMIT 1;",
+      "SELECT MIN(marks) FROM Students;",
+      "SELECT marks FROM Students WHERE marks = 2;"
+    ],
+    "answer": "SELECT MAX(marks) FROM Students WHERE marks < (SELECT MAX(marks) FROM Students);",
+    "solution": "The inner subquery finds the overall highest marks. The outer query then finds the maximum marks among all rows with marks strictly LESS than that highest value — which is the second-highest distinct mark."
+  },
+  {
+    "id": "SQL010",
+    "question": "What does a `FOREIGN KEY` constraint enforce between two tables?",
+    "options": [
+      "It ensures a column's values must exist as a valid reference (primary key) in another table, maintaining referential integrity",
+      "It automatically encrypts the column",
+      "It prevents any INSERT operations on the table",
+      "It makes the column unique within its own table only, with no relation to other tables"
+    ],
+    "answer": "It ensures a column's values must exist as a valid reference (primary key) in another table, maintaining referential integrity",
+    "solution": "A FOREIGN KEY links a column in one table to the PRIMARY KEY of another, ensuring that values in the foreign key column must correspond to an existing value in the referenced table — this maintains referential integrity between related tables."
+  },
+  {
+    "id": "SQL011",
+    "question": "In SQL, what is the execution order (conceptually) of clauses in a query like:\n`SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...`?",
+    "options": [
+      "SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY",
+      "FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY",
+      "WHERE → SELECT → FROM → ORDER BY → GROUP BY → HAVING",
+      "ORDER BY → SELECT → FROM → WHERE → GROUP BY → HAVING"
+    ],
+    "answer": "FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY",
+    "solution": "Although written as SELECT...FROM...WHERE, SQL logically processes: FROM (get data) → WHERE (filter rows) → GROUP BY (group rows) → HAVING (filter groups) → SELECT (choose/compute columns) → ORDER BY (sort final output). This is why HAVING can use aggregates but WHERE cannot."
+  },
+  {
+    "id": "SQL012",
+    "question": "Which SQL command is used to permanently remove a table structure and all its data from the database?",
+    "options": ["DELETE", "TRUNCATE", "DROP", "REMOVE"],
+    "answer": "DROP",
+    "solution": "`DROP TABLE` removes the entire table structure along with all its data and associated indexes/constraints permanently. DELETE removes rows but keeps the table structure; TRUNCATE removes all rows quickly but also keeps the table structure."
+  },
+  {
+    "id": "SQL013",
+    "question": "What is a Common Table Expression (CTE), introduced with the `WITH` keyword, primarily used for?",
+    "options": [
+      "To permanently store data in a new physical table",
+      "To define a temporary, named result set that can be referenced within a single query, improving readability for complex queries",
+      "To create a database index",
+      "To delete rows conditionally"
+    ],
+    "answer": "To define a temporary, named result set that can be referenced within a single query, improving readability for complex queries",
+    "solution": "A CTE (`WITH cte_name AS (...)`) creates a temporary named result set that exists only for the duration of the query it's part of — useful for breaking complex queries (like recursive queries or multi-step aggregations) into readable, modular pieces."
+  },
+  {
+    "id": "SQL014",
+    "question": "Given `Orders(order_id, customer_id, order_date)`, which query finds customers who have placed more than 3 orders?",
+    "options": [
+      "SELECT customer_id FROM Orders WHERE COUNT(order_id) > 3;",
+      "SELECT customer_id, COUNT(order_id) FROM Orders GROUP BY customer_id HAVING COUNT(order_id) > 3;",
+      "SELECT customer_id FROM Orders GROUP BY order_id HAVING COUNT(*) > 3;",
+      "SELECT COUNT(customer_id) FROM Orders WHERE order_id > 3;"
+    ],
+    "answer": "SELECT customer_id, COUNT(order_id) FROM Orders GROUP BY customer_id HAVING COUNT(order_id) > 3;",
+    "solution": "We need to group orders by customer_id, count how many orders each customer has, then filter (using HAVING, since it's an aggregate condition) to keep only customers with more than 3 orders."
+  },
+  {
+    "id": "SQL015",
+    "question": "What is the primary purpose of creating an INDEX on a database column?",
+    "options": [
+      "To automatically remove duplicate values from the column",
+      "To speed up data retrieval (SELECT/search queries) on that column, at some cost to insert/update speed",
+      "To enforce that the column can only contain numeric data",
+      "To encrypt sensitive data in the column"
+    ],
+    "answer": "To speed up data retrieval (SELECT/search queries) on that column, at some cost to insert/update speed",
+    "solution": "An index creates a data structure (often a B-tree) that allows the database to find rows matching a search condition much faster than scanning the entire table, at the tradeoff of extra storage and slightly slower writes (since the index must also be updated)."
+  }
+]
