@@ -1,0 +1,2788 @@
+[
+  {
+    "id": 1,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A sum of ₹12,000 is invested at 10% per annum simple interest for 3 years. Find the total interest earned.",
+    "options": [
+      "₹3,000",
+      "₹3,600",
+      "₹4,200",
+      "₹3,900"
+    ],
+    "correct_index": 1,
+    "explanation": "SI = (P × R × T) / 100 = (12000 × 10 × 3) / 100 = ₹3,600."
+  },
+  {
+    "id": 2,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "The ratio of ages of A and B is 3:5. After 8 years, the ratio becomes 4:6. Find A's present age.",
+    "options": [
+      "18",
+      "24",
+      "12",
+      "20"
+    ],
+    "correct_index": 1,
+    "explanation": "Let ages be 3x and 5x. (3x+8)/(5x+8) = 4/6 → 6(3x+8) = 4(5x+8) → 18x+48 = 20x+32 → 2x = 16 → x = 8. A's age = 3×8 = 24."
+  },
+  {
+    "id": 3,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A train 150 m long crosses a platform 250 m long in 20 seconds. Find the speed of the train in km/hr.",
+    "options": [
+      "54 km/hr",
+      "60 km/hr",
+      "72 km/hr",
+      "45 km/hr"
+    ],
+    "correct_index": 2,
+    "explanation": "Total distance = 150+250 = 400 m. Speed = 400/20 = 20 m/s = 20 × 18/5 = 72 km/hr."
+  },
+  {
+    "id": 4,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "If the cost price of 20 articles equals the selling price of 16 articles, find the profit percentage.",
+    "options": [
+      "20%",
+      "25%",
+      "16.67%",
+      "30%"
+    ],
+    "correct_index": 1,
+    "explanation": "20 CP = 16 SP → SP = (20/16) CP = 1.25 CP. Profit % = 25%."
+  },
+  {
+    "id": 5,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "Pipe A can fill a tank in 12 hours and Pipe B can fill it in 18 hours. If both are opened together, how long will they take to fill the tank?",
+    "options": [
+      "7.2 hours",
+      "6 hours",
+      "8 hours",
+      "9 hours"
+    ],
+    "correct_index": 0,
+    "explanation": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
+  },
+  {
+    "id": 6,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "Find the compound interest on ₹8,000 for 2 years at 5% per annum, compounded annually.",
+    "options": [
+      "₹800",
+      "₹820",
+      "₹840",
+      "₹850"
+    ],
+    "correct_index": 1,
+    "explanation": "A = 8000(1.05)^2 = 8000 × 1.1025 = 8820. CI = 8820 - 8000 = ₹820."
+  },
+  {
+    "id": 7,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A can complete a work in 15 days and B in 10 days. They work together for 3 days, after which A leaves. In how many more days will B finish the remaining work?",
+    "options": [
+      "5 days",
+      "5.5 days",
+      "4.5 days",
+      "6 days"
+    ],
+    "correct_index": 0,
+    "explanation": "A's 1-day work = 1/15, B's 1-day work = 1/10. Work done in 3 days together = 3(1/15+1/10) = 3(2/30+3/30) = 3(5/30) = 1/2. Remaining work = 1 - 1/2 = 1/2. Time for B alone to finish remaining = (1/2) ÷ (1/10) = 5 days."
+  },
+  {
+    "id": 8,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "The average of 5 consecutive odd numbers is 61. Find the largest number.",
+    "options": [
+      "63",
+      "65",
+      "67",
+      "69"
+    ],
+    "correct_index": 1,
+    "explanation": "For 5 consecutive odd numbers, average = middle number = 61. Largest = 61+4 = 65."
+  },
+  {
+    "id": 9,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A alone can finish a piece of work in 18 days, and B is 50% more efficient than A. In how many days can B alone finish the same work?",
+    "options": [
+      "9 days",
+      "12 days",
+      "10 days",
+      "13.5 days"
+    ],
+    "correct_index": 1,
+    "explanation": "B is 50% more efficient, so B's efficiency = 1.5 × A's efficiency. Since time is inversely proportional to efficiency, B's time = 18/1.5 = 12 days."
+  },
+  {
+    "id": 10,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "Two trains of length 120 m and 180 m run in opposite directions on parallel tracks. Their speeds are 54 km/hr and 36 km/hr respectively. Find the time taken to cross each other.",
+    "options": [
+      "10 seconds",
+      "12 seconds",
+      "9 seconds",
+      "11 seconds"
+    ],
+    "correct_index": 1,
+    "explanation": "Relative speed = 54+36 = 90 km/hr = 90×5/18 = 25 m/s. Total distance = 120+180 = 300 m. Time = 300/25 = 12 seconds."
+  },
+  {
+    "id": 11,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A shopkeeper marks his goods 40% above cost price and allows a discount of 25%. Find his profit percentage.",
+    "options": [
+      "10%",
+      "15%",
+      "5%",
+      "12%"
+    ],
+    "correct_index": 2,
+    "explanation": "Let CP = 100. Marked Price = 140. Selling Price after 25% discount = 140 × 0.75 = 105. Profit % = (105-100)/100 × 100 = 5%."
+  },
+  {
+    "id": 12,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "₹6,300 is divided among A, B, and C such that A's share : B's share = 2:3 and B's share : C's share = 4:5. Find C's share.",
+    "options": [
+      "₹2,500",
+      "₹2,700",
+      "₹3,000",
+      "₹2,800"
+    ],
+    "correct_index": 1,
+    "explanation": "A:B = 2:3 = 8:12, B:C = 4:5 = 12:15. Combined ratio A:B:C = 8:12:15, sum = 35. C's share = (15/35) × 6300 = ₹2,700."
+  },
+  {
+    "id": 13,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A boat travels 30 km downstream in 2 hours and returns upstream in 3 hours. Find the speed of the boat in still water.",
+    "options": [
+      "10 km/hr",
+      "12.5 km/hr",
+      "15 km/hr",
+      "12 km/hr"
+    ],
+    "correct_index": 1,
+    "explanation": "Downstream speed = 30/2 = 15 km/hr. Upstream speed = 30/3 = 10 km/hr. Speed in still water = (15+10)/2 = 12.5 km/hr."
+  },
+  {
+    "id": 14,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A mixture contains milk and water in the ratio 5:2. If 14 litres of water is added, the ratio becomes 5:4. Find the initial quantity of milk.",
+    "options": [
+      "30 litres",
+      "35 litres",
+      "25 litres",
+      "40 litres"
+    ],
+    "correct_index": 1,
+    "explanation": "Let milk = 5x, water = 2x. (5x)/(2x+14) = 5/4 → 20x = 5(2x+14) → 20x = 10x+70 → 10x = 70 → x = 7. Milk = 5×7 = 35 litres."
+  },
+  {
+    "id": 15,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the initial population was 20,000, find the population after 2 years.",
+    "options": [
+      "19,800",
+      "20,000",
+      "19,900",
+      "19,700"
+    ],
+    "correct_index": 0,
+    "explanation": "After year 1: 20000 × 1.10 = 22000. After year 2: 22000 × 0.90 = 19800."
+  },
+  {
+    "id": 16,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A sum triples itself in 8 years at simple interest. In how many years will it become 5 times itself?",
+    "options": [
+      "16 years",
+      "20 years",
+      "18 years",
+      "14 years"
+    ],
+    "correct_index": 0,
+    "explanation": "If sum triples (P becomes 3P), SI earned = 2P in 8 years, so rate: 2P = P×R×8/100 → R = 25%. To become 5 times (SI = 4P): 4P = P×25×T/100 → T = 16 years."
+  },
+  {
+    "id": 17,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "In how many ways can the letters of the word 'MANAGEMENT' be arranged so that all vowels come together?",
+    "options": [
+      "10!/(2!×2!×2!)",
+      "(7! × 4!)/(2!×2!×2!×2!)",
+      "7! × 4!",
+      "(7!/2!) × (4!/2!)"
+    ],
+    "correct_index": 1,
+    "explanation": "MANAGEMENT has 10 letters: M(2), A(2), N(2), G(1), E(2), T(1). Vowels: A,A,E,E (4 vowels, treat as 1 block). Remaining 6 consonants + 1 vowel-block = 7 units with repeats M(2), N(2) → arrangements = 7!/(2!×2!). Vowels within block: A,A,E,E → 4!/(2!×2!). Total = (7! × 4!)/(2!×2!×2!×2!)."
+  },
+  {
+    "id": 18,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "A can do a piece of work in 20 days, B in 30 days, and C in 60 days. All three work together, but A works only for the first 4 days, after which B and C complete the rest. How many total days does the work take?",
+    "options": [
+      "14 days",
+      "16 days",
+      "12 days",
+      "10 days"
+    ],
+    "correct_index": 1,
+    "explanation": "Combined rate of A, B, C for first 4 days = 4×(1/20+1/30+1/60) = 4×(3/60+2/60+1/60) = 4×(6/60) = 24/60 = 2/5. Remaining work = 3/5. B+C's combined rate = 1/30+1/60 = 3/60 = 1/20. Time for remaining work = (3/5) ÷ (1/20) = 12 days. Total time = 4 + 12 = 16 days."
+  },
+  {
+    "id": 19,
+    "section": "Quantitative Aptitude",
+    "subsection": "",
+    "question": "The difference between compound interest and simple interest on a sum for 2 years at 8% per annum is ₹128. Find the sum.",
+    "options": [
+      "₹18,000",
+      "₹20,000",
+      "₹22,000",
+      "₹19,000"
+    ],
+    "correct_index": 1,
+    "explanation": "For 2 years, CI - SI = P×(R/100)^2 = P×(8/100)^2 = P×0.0064. Given this equals 128 → P = 128/0.0064 = ₹20,000."
+  },
+  {
+    "id": 20,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "In a certain code, 'BUS' is written as 'CWV'. How is 'CAR' written in that code?",
+    "options": [
+      "DCU",
+      "DBT",
+      "DBS",
+      "DCT"
+    ],
+    "correct_index": 0,
+    "explanation": "B(+1)=C, U(+2)=W, S(+3)=V. So each letter shifts by +1,+2,+3 respectively. C(+1)=D, A(+2)=C, R(+3)=U → DCU."
+  },
+  {
+    "id": 21,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Five friends P, Q, R, S, T are sitting in a row facing north. T is second from the left. S is to the immediate right of T. Q is to the immediate right of S. R is at the extreme left. Who sits at the extreme right?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "correct_index": 0,
+    "explanation": "R is at the extreme left → position 1 = R. T is 2nd from left → position 2 = T. S is immediate right of T → position 3 = S. Q is immediate right of S → position 4 = Q. Only P is left for position 5, the extreme right. Order: R, T, S, Q, P."
+  },
+  {
+    "id": 22,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "40",
+      "42",
+      "36",
+      "48"
+    ],
+    "correct_index": 1,
+    "explanation": "Differences: 4, 6, 8, 10, 12 (each increasing by 2). 30 + 12 = 42."
+  },
+  {
+    "id": 23,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Statements: All pens are books. Some books are pencils. Conclusions: I. Some pencils are pens. II. Some books are pens.\nWhich conclusion(s) follow?",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither"
+    ],
+    "correct_index": 1,
+    "explanation": "All pens are books → some books are pens (conversion is valid, since 'all A are B' implies 'some B are A'), so II follows. 'Some books are pencils' does not establish any direct relation between pencils and pens, so I does not follow."
+  },
+  {
+    "id": 24,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Pointing to a photograph, a man says, 'She is the daughter of my grandfather's only son.' How is the woman related to the man?",
+    "options": [
+      "Sister",
+      "Mother",
+      "Aunt",
+      "Cousin"
+    ],
+    "correct_index": 0,
+    "explanation": "Grandfather's only son = the man's father. Daughter of the man's father = the man's sister."
+  },
+  {
+    "id": 25,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "If South-East becomes North, North-East becomes West, then what will West become?",
+    "options": [
+      "North-East",
+      "South-East",
+      "South",
+      "North-West"
+    ],
+    "correct_index": 1,
+    "explanation": "The direction system is rotated 135° clockwise (SE→N is a 135° clockwise shift). Applying the same rotation to West: West → South-East."
+  },
+  {
+    "id": 26,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "In a certain code, 'TRAIN' is coded as 'UQBHO'. How is 'PLANE' coded?",
+    "options": [
+      "QKBMF",
+      "OKZMD",
+      "QMZMF",
+      "QKZMF"
+    ],
+    "correct_index": 0,
+    "explanation": "Pattern: letters in odd positions (1st, 3rd, 5th) shift +1, letters in even positions (2nd, 4th) shift -1. Check: T(+1)=U, R(-1)=Q, A(+1)=B, I(-1)=H, N(+1)=O → UQBHO, matches. Apply to PLANE: P(+1)=Q, L(-1)=K, A(+1)=B, N(-1)=M, E(+1)=F → QKBMF."
+  },
+  {
+    "id": 27,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "A is the brother of B. C is the mother of A. D is the brother of E. E is the daughter of B. How is D related to C?",
+    "options": [
+      "Grandson",
+      "Nephew",
+      "Son",
+      "Grandnephew"
+    ],
+    "correct_index": 0,
+    "explanation": "C is A's mother, and A & B are siblings, so C is also B's mother. E is B's daughter, so E is C's granddaughter. D is E's brother, so D is also C's grandson."
+  },
+  {
+    "id": 28,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Six people A, B, C, D, E, F sit around a circular table, facing the center. B sits second to the right of A. C sits immediately right of B. D sits immediately right of C. E sits immediately right of D. F occupies the remaining seat. Who sits immediately right of A?",
+    "options": [
+      "F",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_index": 0,
+    "explanation": "Number the seats 1-6 clockwise. Let A = seat 1. B is second to the right (clockwise) of A → seat 3. C is immediately right of B → seat 4. D is immediately right of C → seat 5. E is immediately right of D → seat 6. The only seat left, seat 2, goes to F. Immediately right (clockwise) of A (seat 1) is seat 2, which is F."
+  },
+  {
+    "id": 29,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Study the following statements and conclusions:\nStatements: Some doctors are engineers. All engineers are teachers. No teacher is a farmer.\nConclusions:\nI. Some doctors are teachers.\nII. No engineer is a farmer.\nIII. Some teachers are doctors.\nWhich conclusions logically follow?",
+    "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "Only II"
+    ],
+    "correct_index": 1,
+    "explanation": "Some doctors are engineers + All engineers are teachers → Some doctors are teachers (I follows) and by conversion, Some teachers are doctors (III follows). All engineers are teachers + No teacher is a farmer → No engineer is a farmer (II follows, since engineers are a subset of teachers). All three follow."
+  },
+  {
+    "id": 30,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "A man walks 5 km towards South, then turns right and walks 3 km, then turns right again and walks 5 km. How far is he from his starting point, and in which direction?",
+    "options": [
+      "3 km, West",
+      "3 km, East",
+      "8 km, South",
+      "13 km, West"
+    ],
+    "correct_index": 0,
+    "explanation": "Start facing South, walk 5 km. Turn right (clockwise) → now facing West, walk 3 km. Turn right again (clockwise) → now facing North, walk 5 km. The 5 km North exactly cancels the initial 5 km South. Net displacement is only the 3 km walked West. He ends up 3 km West of the starting point."
+  },
+  {
+    "id": 31,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "In a certain code language, 'PAPER' is written as '25 1 25 22 4' and 'PENCIL' is written as '25 4 3 8 5 3'. What does '25' stand for?",
+    "options": [
+      "P",
+      "E",
+      "R",
+      "L"
+    ],
+    "correct_index": 0,
+    "explanation": "In both codes, '25' appears at the start where 'P' is the first letter of both PAPER and PENCIL. So '25' represents the letter 'P'."
+  },
+  {
+    "id": 32,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "If '+' means '×', '−' means '÷', '×' means '+', and '÷' means '−', find the value of: 8 − 4 + 2 × 6 ÷ 3",
+    "options": [
+      "7",
+      "5",
+      "9",
+      "13"
+    ],
+    "correct_index": 0,
+    "explanation": "Substitute each symbol with its new meaning: '−'→'÷', '+'→'×', '×'→'+', '÷'→'−'. The expression becomes: 8 ÷ 4 × 2 + 6 − 3. Applying order of operations: 8÷4=2, 2×2=4, then 4+6−3 = 7."
+  },
+  {
+    "id": 33,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Complete the analogy: Doctor : Hospital :: Judge : ?",
+    "options": [
+      "Court",
+      "Law",
+      "Jail",
+      "Justice"
+    ],
+    "correct_index": 0,
+    "explanation": "A Doctor works in a Hospital; similarly, a Judge works in a Court. The relationship is 'profession : workplace'."
+  },
+  {
+    "id": 34,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "In a row of children facing north, Rahul is 7th from the left and 12th from the right. How many children are there in the row?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "17"
+    ],
+    "correct_index": 0,
+    "explanation": "Total = (Position from left) + (Position from right) − 1 = 7 + 12 − 1 = 18."
+  },
+  {
+    "id": 35,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Which one of the following does not belong to the group?\nCircle, Square, Triangle, Perimeter",
+    "options": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Perimeter"
+    ],
+    "correct_index": 3,
+    "explanation": "Circle, Square, and Triangle are all geometric shapes. Perimeter is a measurement/property of a shape, not a shape itself — it doesn't belong to the group."
+  },
+  {
+    "id": 36,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "A cube is painted red on all its faces and then cut into 64 identical smaller cubes. How many smaller cubes have exactly 2 faces painted red?",
+    "options": [
+      "24",
+      "16",
+      "8",
+      "12"
+    ],
+    "correct_index": 0,
+    "explanation": "A cube cut into 64 pieces means it's cut into a 4×4×4 arrangement. Cubes with exactly 2 painted faces lie on the edges (not corners) of the big cube. Each edge of the 4×4×4 cube has (4-2)=2 such cubes, and there are 12 edges: 12 × 2 = 24."
+  },
+  {
+    "id": 37,
+    "section": "Logical Reasoning",
+    "subsection": "",
+    "question": "Statement: Should India adopt a uniform civil code for all citizens regardless of religion?\nArguments:\nI. Yes, it would promote equality and national integration.\nII. No, it would violate the religious freedom guaranteed by the Constitution.\nWhich argument(s) is/are strong?",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correct_index": 2,
+    "explanation": "This is a genuinely debated policy question — Argument I highlights a real benefit (equality, integration) and Argument II highlights a real concern (religious freedom), both grounded in legitimate constitutional and social considerations. In such statement-argument reasoning questions, both sides being substantive and relevant makes both arguments 'strong'."
+  },
+  {
+    "id": 38,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Choose the word most nearly OPPOSITE in meaning to 'AUSTERE': ",
+    "options": [
+      "Lavish",
+      "Strict",
+      "Plain",
+      "Harsh"
+    ],
+    "correct_index": 0,
+    "explanation": "'Austere' means simple, severe, or without luxury. Its opposite is 'Lavish', meaning extravagant or generous."
+  },
+  {
+    "id": 39,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Fill in the blank: Despite the heavy rain, the match _____ as scheduled.",
+    "options": [
+      "went on",
+      "went off",
+      "went up",
+      "went out"
+    ],
+    "correct_index": 0,
+    "explanation": "'Went on' means continued/proceeded, which fits the context of the match continuing despite rain. The other phrasal verbs don't fit the meaning."
+  },
+  {
+    "id": 40,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Choose the correctly spelt word.",
+    "options": [
+      "Occassion",
+      "Occasion",
+      "Ocasion",
+      "Occaision"
+    ],
+    "correct_index": 1,
+    "explanation": "The correct spelling is 'Occasion' — double 'c', single 's'."
+  },
+  {
+    "id": 41,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Identify the error in the sentence: 'Neither of the students (A) / have completed (B) / their assignment on time (C) / No error (D)'.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_index": 1,
+    "explanation": "'Neither' is singular, so it should take a singular verb 'has completed', not 'have completed'. Error is in part B."
+  },
+  {
+    "id": 42,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Choose the correct synonym for 'CANDID':",
+    "options": [
+      "Frank",
+      "Cunning",
+      "Vague",
+      "Timid"
+    ],
+    "correct_index": 0,
+    "explanation": "'Candid' means honest and straightforward, which is synonymous with 'Frank'."
+  },
+  {
+    "id": 43,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Rearrange the parts to form a meaningful sentence:\nP: was so engrossing\nQ: that I finished it\nR: the novel\nS: in a single sitting",
+    "options": [
+      "RPQS",
+      "PQRS",
+      "RQPS",
+      "PRQS"
+    ],
+    "correct_index": 0,
+    "explanation": "The logical order is: 'The novel (R) was so engrossing (P) that I finished it (Q) in a single sitting (S)' → RPQS."
+  },
+  {
+    "id": 44,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Choose the correct passive voice of: 'The manager will approve the report tomorrow.'",
+    "options": [
+      "The report will be approved by the manager tomorrow.",
+      "The report was approved by the manager tomorrow.",
+      "The report is approved by the manager tomorrow.",
+      "The report will approve by the manager tomorrow."
+    ],
+    "correct_index": 0,
+    "explanation": "Future simple active ('will approve') becomes 'will be + past participle' in passive: 'will be approved'."
+  },
+  {
+    "id": 45,
+    "section": "Verbal Ability",
+    "subsection": "",
+    "question": "Choose the word that best fits: The committee's decision was _____ and left no room for debate.",
+    "options": [
+      "ambiguous",
+      "unanimous",
+      "tentative",
+      "arbitrary"
+    ],
+    "correct_index": 1,
+    "explanation": "'Unanimous' means agreed by everyone, fitting 'left no room for debate'. The other options imply doubt or disagreement, which contradicts the sentence."
+  },
+  {
+    "id": 46,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "A company's sales (in ₹ lakh) over 5 years: 2019: 40, 2020: 55, 2021: 50, 2022: 70, 2023: 90. What is the percentage increase in sales from 2019 to 2023?",
+    "options": [
+      "100%",
+      "125%",
+      "150%",
+      "112.5%"
+    ],
+    "correct_index": 1,
+    "explanation": "Increase = 90-40 = 50. Percentage increase = (50/40) × 100 = 125%."
+  },
+  {
+    "id": 47,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "Using the same sales data (2019: 40, 2020: 55, 2021: 50, 2022: 70, 2023: 90, in ₹ lakh), find the average annual sales over the 5 years.",
+    "options": [
+      "55 lakh",
+      "61 lakh",
+      "65 lakh",
+      "60 lakh"
+    ],
+    "correct_index": 1,
+    "explanation": "Total = 40+55+50+70+90 = 305. Average = 305/5 = 61 lakh."
+  },
+  {
+    "id": 48,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "In a class of 200 students, 40% are girls. Of the girls, 30% play sports, and of the boys, 50% play sports. How many students in total play sports?",
+    "options": [
+      "76",
+      "84",
+      "82",
+      "90"
+    ],
+    "correct_index": 1,
+    "explanation": "Girls = 80, Boys = 120. Girls playing sports = 30% of 80 = 24. Boys playing sports = 50% of 120 = 60. Total = 24+60 = 84."
+  },
+  {
+    "id": 49,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "A pie chart shows the expenditure of a family: Food 30%, Rent 25%, Education 20%, Savings 15%, Others 10%. If the monthly income is ₹60,000, how much is spent on Rent and Education combined?",
+    "options": [
+      "₹24,000",
+      "₹27,000",
+      "₹30,000",
+      "₹21,000"
+    ],
+    "correct_index": 1,
+    "explanation": "Rent+Education = 25%+20% = 45%. 45% of 60,000 = ₹27,000."
+  },
+  {
+    "id": 50,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "The bar graph shows units produced by a factory: Mon-120, Tue-150, Wed-100, Thu-180, Fri-140. What is the ratio of production on Thursday to Wednesday?",
+    "options": [
+      "9:5",
+      "18:10",
+      "9:6",
+      "4:5"
+    ],
+    "correct_index": 0,
+    "explanation": "Thu:Wed = 180:100 = 9:5 (dividing both by 20)."
+  },
+  {
+    "id": 51,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "In a survey of 500 people about preferred mode of transport: Bus - 35%, Car - 25%, Train - 20%, Bike - 15%, Others - 5%. How many more people prefer Bus over Train?",
+    "options": [
+      "70",
+      "75",
+      "80",
+      "65"
+    ],
+    "correct_index": 1,
+    "explanation": "Bus = 35% of 500 = 175. Train = 20% of 500 = 100. Difference = 175-100 = 75."
+  },
+  {
+    "id": 52,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "A line graph shows a company's profit (₹ crore): 2020: 12, 2021: 18, 2022: 15, 2023: 24. What is the percentage growth in profit from 2021 to 2022?",
+    "options": [
+      "-16.67%",
+      "-20%",
+      "16.67%",
+      "20%"
+    ],
+    "correct_index": 0,
+    "explanation": "Change = 15-18 = -3. Percentage change = (-3/18) × 100 = -16.67% (a decrease)."
+  },
+  {
+    "id": 53,
+    "section": "Data Interpretation",
+    "subsection": "",
+    "question": "In a table, the marks of 5 subjects for a student are: Maths-85, Science-78, English-64, Hindi-72, SST-91 (each out of 100). What is the overall percentage?",
+    "options": [
+      "76%",
+      "78%",
+      "80%",
+      "74%"
+    ],
+    "correct_index": 1,
+    "explanation": "Total = 85+78+64+72+91 = 390. Out of 500. Percentage = (390/500) × 100 = 78%."
+  },
+  {
+    "id": 54,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "In a dataset with values [4, 8, 6, 5, 3, 9, 7], what is the median?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 1,
+    "explanation": "Sorted: 3,4,5,6,7,8,9. With 7 values, median is the 4th value = 6."
+  },
+  {
+    "id": 55,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "Which evaluation metric is most appropriate for a highly imbalanced binary classification problem (e.g., fraud detection)?",
+    "options": [
+      "Accuracy",
+      "F1-score",
+      "Mean Squared Error",
+      "R-squared"
+    ],
+    "correct_index": 1,
+    "explanation": "In imbalanced datasets, accuracy can be misleading (a model predicting only the majority class still scores high). F1-score balances precision and recall, making it a better metric here."
+  },
+  {
+    "id": 56,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "What does a p-value of 0.03 in a hypothesis test typically indicate at a 5% significance level?",
+    "options": [
+      "The null hypothesis is accepted",
+      "The result is statistically significant, reject the null hypothesis",
+      "The test is inconclusive",
+      "The sample size is too small"
+    ],
+    "correct_index": 1,
+    "explanation": "Since p-value (0.03) < significance level (0.05), we reject the null hypothesis, indicating the result is statistically significant."
+  },
+  {
+    "id": 57,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "Which technique is used to reduce the dimensionality of data while preserving maximum variance?",
+    "options": [
+      "K-Means Clustering",
+      "Principal Component Analysis (PCA)",
+      "Decision Tree",
+      "Naive Bayes"
+    ],
+    "correct_index": 1,
+    "explanation": "PCA transforms correlated variables into a smaller set of uncorrelated components, capturing maximum variance — used for dimensionality reduction."
+  },
+  {
+    "id": 58,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "In a normal distribution, approximately what percentage of data lies within 1 standard deviation of the mean?",
+    "options": [
+      "68%",
+      "95%",
+      "99.7%",
+      "50%"
+    ],
+    "correct_index": 0,
+    "explanation": "As per the empirical rule (68-95-99.7 rule), about 68% of data falls within ±1 standard deviation of the mean."
+  },
+  {
+    "id": 59,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "A model performs very well on training data (98% accuracy) but poorly on test data (65% accuracy). This is an example of:",
+    "options": [
+      "Underfitting",
+      "Overfitting",
+      "Bias",
+      "Regularization"
+    ],
+    "correct_index": 1,
+    "explanation": "High training accuracy but low test accuracy indicates the model has memorized training data (including noise) and fails to generalize — a classic sign of overfitting."
+  },
+  {
+    "id": 60,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "Which of the following correlation coefficients indicates the strongest linear relationship between two variables?",
+    "options": [
+      "0.2",
+      "-0.85",
+      "0.5",
+      "0.1"
+    ],
+    "correct_index": 1,
+    "explanation": "Correlation strength is judged by absolute value, regardless of sign. |-0.85| = 0.85 is closest to 1, indicating the strongest linear relationship (a strong negative correlation)."
+  },
+  {
+    "id": 61,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "In SQL, which clause is used to filter groups after aggregation (e.g., after using GROUP BY)?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "FILTER",
+      "ORDER BY"
+    ],
+    "correct_index": 1,
+    "explanation": "WHERE filters rows before grouping; HAVING filters groups after aggregation (e.g., 'HAVING COUNT(*) > 5')."
+  },
+  {
+    "id": 62,
+    "section": "Data Analysis & Data Science",
+    "subsection": "General",
+    "question": "A dataset has features on very different scales (e.g., 'age' in years and 'income' in lakhs). Which preprocessing step is most important before applying K-Means clustering or gradient-descent-based algorithms?",
+    "options": [
+      "One-hot encoding",
+      "Feature scaling (standardization/normalization)",
+      "Removing duplicate rows",
+      "Label encoding"
+    ],
+    "correct_index": 1,
+    "explanation": "Distance-based algorithms (K-Means, KNN) and gradient-descent-based models are sensitive to feature magnitude — a large-scale feature like income would dominate the distance calculation over age. Feature scaling (e.g., StandardScaler or Min-Max normalization) brings all features to a comparable range."
+  },
+  {
+    "id": 63,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "Which bank acts as the 'lender of last resort' for commercial banks in India?",
+    "options": [
+      "State Bank of India",
+      "Reserve Bank of India",
+      "NABARD",
+      "IDBI Bank"
+    ],
+    "correct_index": 1,
+    "explanation": "RBI, as the central bank, provides emergency funds to commercial banks facing liquidity crises, making it the lender of last resort."
+  },
+  {
+    "id": 64,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "What does 'Repo Rate' refer to?",
+    "options": [
+      "The rate at which RBI lends short-term funds to commercial banks against securities",
+      "The interest rate offered on savings accounts",
+      "The rate at which banks lend to each other",
+      "The rate charged on international transactions"
+    ],
+    "correct_index": 0,
+    "explanation": "Repo (Repurchase) Rate is the rate at which RBI lends money to commercial banks for short durations against government securities, used as a key monetary policy tool."
+  },
+  {
+    "id": 65,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "What is the full form of NEFT, a common electronic fund transfer system in India?",
+    "options": [
+      "National Electronic Funds Transfer",
+      "Net Electronic Fund Transaction",
+      "National Emergency Fund Transfer",
+      "New Electronic Financial Transfer"
+    ],
+    "correct_index": 0,
+    "explanation": "NEFT stands for National Electronic Funds Transfer, a system that enables one-to-one fund transfers between bank accounts in India."
+  },
+  {
+    "id": 66,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "Which committee's recommendations led to the establishment of the Regional Rural Banks (RRBs) in India?",
+    "options": [
+      "Narasimham Committee",
+      "Narayan Committee",
+      "M. Narasimham (RRB) Committee, 1975",
+      "Rangarajan Committee"
+    ],
+    "correct_index": 2,
+    "explanation": "Regional Rural Banks were set up in 1975 based on the recommendations of the Narasimham Working Group, aimed at providing credit facilities to rural areas."
+  },
+  {
+    "id": 67,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "CRR (Cash Reserve Ratio) refers to:",
+    "options": [
+      "The percentage of a bank's total deposits that must be kept as cash reserve with RBI",
+      "The minimum capital a bank must maintain against risk-weighted assets",
+      "The ratio of loans to deposits in a bank",
+      "The rate of interest on fixed deposits"
+    ],
+    "correct_index": 0,
+    "explanation": "CRR is the minimum percentage of a bank's Net Demand and Time Liabilities (NDTL) that it must maintain as cash reserves with the RBI, used to control money supply and inflation."
+  },
+  {
+    "id": 68,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "Which of the following is NOT a function of the Reserve Bank of India?",
+    "options": [
+      "Issuing currency notes",
+      "Regulating monetary policy",
+      "Collecting income tax",
+      "Acting as banker to the government"
+    ],
+    "correct_index": 2,
+    "explanation": "Collecting income tax is the function of the Income Tax Department (under CBDT), not RBI. RBI issues currency, regulates monetary policy, and acts as banker to the government and commercial banks."
+  },
+  {
+    "id": 69,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "What is a 'Non-Performing Asset' (NPA) in banking terms?",
+    "options": [
+      "A loan or advance where interest/principal payment has remained overdue for a specified period (typically 90 days)",
+      "An asset that generates no revenue for the bank at all times",
+      "A fixed deposit that has matured",
+      "A savings account with zero balance"
+    ],
+    "correct_index": 0,
+    "explanation": "An asset becomes 'non-performing' when the borrower fails to make interest or principal repayments for a period, generally 90 days, as per RBI norms."
+  },
+  {
+    "id": 70,
+    "section": "Banking Awareness",
+    "subsection": "",
+    "question": "The 'Basel Norms' primarily deal with which aspect of banking?",
+    "options": [
+      "Bank capital adequacy and risk management standards",
+      "Foreign exchange rate regulation",
+      "Rules for opening new bank branches",
+      "Customer grievance redressal mechanisms"
+    ],
+    "correct_index": 0,
+    "explanation": "Basel Norms (Basel I, II, III), formulated by the Basel Committee on Banking Supervision, set international standards for bank capital adequacy, stress testing, and market liquidity risk."
+  },
+  {
+    "id": 71,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A fair coin is tossed 10 times. What is the probability of getting exactly 6 heads?",
+    "options": [
+      "210/1024",
+      "252/1024",
+      "120/1024",
+      "45/1024"
+    ],
+    "correct_index": 0,
+    "explanation": "P(X=6) = C(10,6) × (0.5)^6 × (0.5)^4 = 210 × (0.5)^10 = 210/1024. C(10,6) = 10!/(6!4!) = 210."
+  },
+  {
+    "id": 72,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a dataset, the mean is 50 and standard deviation is 5. Using Chebyshev's inequality, what is the minimum percentage of data guaranteed to lie within 2 standard deviations of the mean (i.e., between 40 and 60)?",
+    "options": [
+      "68%",
+      "75%",
+      "95%",
+      "89%"
+    ],
+    "correct_index": 1,
+    "explanation": "Chebyshev's inequality: at least (1 - 1/k^2) of data lies within k standard deviations, for ANY distribution. For k=2: 1 - 1/4 = 0.75 = 75%. (Note: 68% and 95% apply only to normal distributions via the empirical rule, not Chebyshev.)"
+  },
+  {
+    "id": 73,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Two events A and B are such that P(A) = 0.4, P(B) = 0.5, and P(A∩B) = 0.2. Are A and B independent?",
+    "options": [
+      "Yes, because P(A∩B) = P(A)×P(B)",
+      "No, because P(A∩B) ≠ P(A)×P(B)",
+      "Cannot be determined without more information",
+      "Yes, because P(A∩B) < P(A) and P(A∩B) < P(B)"
+    ],
+    "correct_index": 0,
+    "explanation": "For independence, P(A∩B) must equal P(A)×P(B). Here P(A)×P(B) = 0.4×0.5 = 0.2, which equals the given P(A∩B) = 0.2. So A and B are independent."
+  },
+  {
+    "id": 74,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A box contains 5 red and 3 blue balls. Two balls are drawn without replacement. What is the probability that both are red?",
+    "options": [
+      "5/14",
+      "5/28",
+      "10/28",
+      "25/64"
+    ],
+    "correct_index": 0,
+    "explanation": "P(both red) = (5/8) × (4/7) = 20/56 = 5/14."
+  },
+  {
+    "id": 75,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a Type I error, what does the researcher incorrectly do?",
+    "options": [
+      "Reject a true null hypothesis",
+      "Accept a false null hypothesis",
+      "Reject a true alternative hypothesis",
+      "Accept a false alternative hypothesis"
+    ],
+    "correct_index": 0,
+    "explanation": "Type I error (false positive) occurs when a true null hypothesis is incorrectly rejected. Type II error (false negative) is failing to reject a false null hypothesis."
+  },
+  {
+    "id": 76,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "The correlation coefficient between two variables X and Y is found to be 0.9. Which of the following is a valid conclusion?",
+    "options": [
+      "X causes Y",
+      "There is a strong positive linear relationship between X and Y",
+      "Y causes X",
+      "X and Y are independent"
+    ],
+    "correct_index": 1,
+    "explanation": "Correlation measures the strength and direction of a LINEAR association only — it never implies causation ('correlation is not causation'). A value of 0.9 indicates a strong positive linear relationship."
+  },
+  {
+    "id": 77,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A random variable X follows a Poisson distribution with mean λ = 4. What is the variance of X?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct_index": 1,
+    "explanation": "For a Poisson distribution, mean = variance = λ. Since λ = 4, variance = 4."
+  },
+  {
+    "id": 78,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a right-skewed (positively skewed) distribution, what is the typical order of mean, median, and mode from left to right on the number line?",
+    "options": [
+      "Mode < Median < Mean",
+      "Mean < Median < Mode",
+      "Median < Mode < Mean",
+      "Mean = Median = Mode"
+    ],
+    "correct_index": 0,
+    "explanation": "In a right-skewed distribution, the long tail is on the right, pulling the mean higher than the median, which in turn is higher than the mode. Order: Mode < Median < Mean."
+  },
+  {
+    "id": 79,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A sample of 25 items has a sample standard deviation of 10. What is the standard error of the mean?",
+    "options": [
+      "0.4",
+      "2",
+      "10",
+      "50"
+    ],
+    "correct_index": 1,
+    "explanation": "Standard Error = s/√n = 10/√25 = 10/5 = 2."
+  },
+  {
+    "id": 80,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which measure of central tendency is most affected by extreme outliers in a dataset?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "None — all are equally affected"
+    ],
+    "correct_index": 0,
+    "explanation": "The mean uses every value in its calculation (sum of all values / n), so a single extreme outlier can shift it significantly. Median and mode are based on position/frequency and are far more robust to outliers."
+  },
+  {
+    "id": 81,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A bag contains 4 white and 6 black balls. If 3 balls are drawn at random, what is the probability that exactly 2 are white?",
+    "options": [
+      "3/10",
+      "1/6",
+      "3/20",
+      "9/20"
+    ],
+    "correct_index": 0,
+    "explanation": "P = [C(4,2) × C(6,1)] / C(10,3) = (6 × 6) / 120 = 36/120 = 3/10."
+  },
+  {
+    "id": 82,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "If the variance of a dataset is 25, what is the coefficient of variation if the mean is 20?",
+    "options": [
+      "20%",
+      "25%",
+      "80%",
+      "125%"
+    ],
+    "correct_index": 1,
+    "explanation": "Standard deviation = √25 = 5. Coefficient of Variation = (SD/Mean) × 100 = (5/20) × 100 = 25%."
+  },
+  {
+    "id": 83,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following best describes the Central Limit Theorem?",
+    "options": [
+      "The sampling distribution of the sample mean approaches a normal distribution as sample size increases, regardless of the population's distribution",
+      "All populations are normally distributed",
+      "The mean of a sample always equals the population mean",
+      "Larger samples always have smaller variance than the population"
+    ],
+    "correct_index": 0,
+    "explanation": "CLT states that for a sufficiently large sample size (commonly n≥30), the sampling distribution of the sample mean will be approximately normal, even if the underlying population distribution is not normal."
+  },
+  {
+    "id": 84,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a confusion matrix, if TP=80, FP=20, FN=10, TN=90, what is the precision?",
+    "options": [
+      "0.80",
+      "0.89",
+      "0.90",
+      "0.73"
+    ],
+    "correct_index": 0,
+    "explanation": "Precision = TP / (TP+FP) = 80 / (80+20) = 80/100 = 0.80."
+  },
+  {
+    "id": 85,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Using the same confusion matrix (TP=80, FP=20, FN=10, TN=90), what is the recall (sensitivity)?",
+    "options": [
+      "0.80",
+      "0.89",
+      "0.90",
+      "0.73"
+    ],
+    "correct_index": 1,
+    "explanation": "Recall = TP / (TP+FN) = 80 / (80+10) = 80/90 ≈ 0.89."
+  },
+  {
+    "id": 86,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What does a 95% confidence interval for a population mean actually mean?",
+    "options": [
+      "There is a 95% probability that the true population mean lies within this specific interval",
+      "If we repeated the sampling process many times, about 95% of the constructed intervals would contain the true population mean",
+      "95% of the data falls within this interval",
+      "The sample mean is correct 95% of the time"
+    ],
+    "correct_index": 1,
+    "explanation": "The frequentist interpretation of a confidence interval refers to the long-run performance of the method: 95% of intervals built this way, across repeated sampling, would capture the true parameter — it is NOT a probability statement about one specific fixed interval."
+  },
+  {
+    "id": 87,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which distribution is most appropriate for modeling the number of customer arrivals at a store per hour?",
+    "options": [
+      "Normal distribution",
+      "Poisson distribution",
+      "Binomial distribution",
+      "Uniform distribution"
+    ],
+    "correct_index": 1,
+    "explanation": "The Poisson distribution models the number of events (like arrivals) occurring in a fixed interval of time, given a constant average rate and independence between events — ideal for arrival-count data."
+  },
+  {
+    "id": 88,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In linear regression, what does a high Variance Inflation Factor (VIF) for a predictor indicate?",
+    "options": [
+      "The predictor has high multicollinearity with other predictors",
+      "The predictor is statistically insignificant",
+      "The model has high bias",
+      "The residuals are not normally distributed"
+    ],
+    "correct_index": 0,
+    "explanation": "VIF measures how much a predictor's variance is inflated due to correlation with other predictors. A VIF above 5-10 typically signals problematic multicollinearity, which makes coefficient estimates unstable."
+  },
+  {
+    "id": 89,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A dataset has quartiles Q1=20 and Q3=50. Using the IQR method, what is the upper bound for detecting outliers?",
+    "options": [
+      "50",
+      "65",
+      "95",
+      "80"
+    ],
+    "correct_index": 2,
+    "explanation": "IQR = Q3-Q1 = 50-20 = 30. Upper bound = Q3 + 1.5×IQR = 50 + 1.5×30 = 50+45 = 95."
+  },
+  {
+    "id": 90,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following is true about the median of a dataset?",
+    "options": [
+      "It is always equal to the mean",
+      "It divides the dataset into two equal halves by count, and is robust to outliers",
+      "It is only defined for normally distributed data",
+      "It is the most frequently occurring value"
+    ],
+    "correct_index": 1,
+    "explanation": "The median is the middle value when data is sorted, splitting it into two equal-sized halves. Unlike the mean, it is not pulled by extreme values, making it robust to outliers. (The most frequent value is the mode, not the median.)"
+  },
+  {
+    "id": 91,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In A/B testing, what is the purpose of calculating statistical power before running the experiment?",
+    "options": [
+      "To determine the sample size needed to detect a true effect of a given size with a desired probability",
+      "To calculate the exact p-value in advance",
+      "To guarantee the null hypothesis is true",
+      "To eliminate the need for a control group"
+    ],
+    "correct_index": 0,
+    "explanation": "Power analysis, done before the experiment, estimates the sample size required to detect a real effect (of a specified minimum size) with a chosen probability (commonly 80%), given a significance level — this avoids underpowered tests that fail to detect true effects."
+  },
+  {
+    "id": 92,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following sampling methods involves dividing the population into subgroups and randomly sampling from each?",
+    "options": [
+      "Simple random sampling",
+      "Stratified sampling",
+      "Convenience sampling",
+      "Cluster sampling"
+    ],
+    "correct_index": 1,
+    "explanation": "Stratified sampling divides the population into homogeneous subgroups (strata) based on a shared characteristic, then randomly samples from each stratum — ensuring proportional representation."
+  },
+  {
+    "id": 93,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "If X and Y are two random variables with Cov(X,Y) = 15, Var(X) = 25, Var(Y) = 36, find the correlation coefficient between X and Y.",
+    "options": [
+      "0.5",
+      "0.42",
+      "0.6",
+      "0.36"
+    ],
+    "correct_index": 0,
+    "explanation": "Correlation = Cov(X,Y) / (σx × σy) = 15 / (√25 × √36) = 15 / (5×6) = 15/30 = 0.5."
+  },
+  {
+    "id": 94,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In hypothesis testing, what does the p-value represent?",
+    "options": [
+      "The probability that the null hypothesis is true",
+      "The probability of observing data as extreme as (or more extreme than) the observed result, assuming the null hypothesis is true",
+      "The probability of making a Type II error",
+      "The significance level chosen for the test"
+    ],
+    "correct_index": 1,
+    "explanation": "The p-value is a conditional probability computed UNDER the assumption that the null hypothesis is true — it quantifies how extreme/unusual the observed data is if H0 were correct. It is NOT the probability that H0 itself is true."
+  },
+  {
+    "id": 95,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following best distinguishes covariance from correlation?",
+    "options": [
+      "Covariance measures direction only; correlation measures magnitude only",
+      "Correlation is a normalized (unitless, bounded between -1 and 1) version of covariance",
+      "Covariance and correlation are mathematically identical",
+      "Correlation can only be computed for categorical variables"
+    ],
+    "correct_index": 1,
+    "explanation": "Covariance measures how two variables vary together but its magnitude depends on the units/scale of the variables, making it hard to interpret. Correlation standardizes covariance by dividing by the product of standard deviations, producing a unitless value between -1 and 1."
+  },
+  {
+    "id": 96,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a left-skewed (negatively skewed) distribution, which of the following orderings is typically true?",
+    "options": [
+      "Mean < Median < Mode",
+      "Mode < Median < Mean",
+      "Mean = Median = Mode",
+      "Median < Mean < Mode"
+    ],
+    "correct_index": 0,
+    "explanation": "In a left-skewed distribution, the long tail extends to the left, pulling the mean lower than the median, which is in turn lower than the mode. Order: Mean < Median < Mode."
+  },
+  {
+    "id": 97,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which technique is used to handle class imbalance by creating synthetic samples of the minority class?",
+    "options": [
+      "PCA",
+      "SMOTE",
+      "Z-score normalization",
+      "One-hot encoding"
+    ],
+    "correct_index": 1,
+    "explanation": "SMOTE (Synthetic Minority Over-sampling Technique) generates synthetic examples of the minority class by interpolating between existing minority class instances and their nearest neighbors, helping balance the dataset without simple duplication."
+  },
+  {
+    "id": 98,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A test has a null hypothesis H0: μ = 50 and is conducted at α = 0.05. The computed p-value is 0.03. What is the correct decision?",
+    "options": [
+      "Reject H0, since p-value < α",
+      "Fail to reject H0, since p-value < α",
+      "Reject H0, since p-value > α",
+      "Accept H0 as definitely true"
+    ],
+    "correct_index": 0,
+    "explanation": "The decision rule is: reject H0 if p-value < α. Since 0.03 < 0.05, we reject the null hypothesis at the 5% significance level."
+  },
+  {
+    "id": 99,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which regression assumption is violated when the spread of residuals increases as the predicted value increases (a 'fan' or 'cone' shape in a residual plot)?",
+    "options": [
+      "Linearity",
+      "Homoscedasticity",
+      "Independence of errors",
+      "Normality of residuals"
+    ],
+    "correct_index": 1,
+    "explanation": "Homoscedasticity assumes constant variance of residuals across all levels of the independent variable. A fan/cone-shaped residual plot indicates heteroscedasticity (non-constant variance) — a violation of this assumption."
+  },
+  {
+    "id": 100,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In Bayesian terms, if P(A) = 0.3, P(B|A) = 0.6, and P(B) = 0.5, find P(A|B) using Bayes' Theorem.",
+    "options": [
+      "0.30",
+      "0.36",
+      "0.60",
+      "0.18"
+    ],
+    "correct_index": 1,
+    "explanation": "Bayes' Theorem: P(A|B) = [P(B|A) × P(A)] / P(B) = (0.6 × 0.3) / 0.5 = 0.18 / 0.5 = 0.36."
+  },
+  {
+    "id": 101,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following best describes 'overfitting' from a bias-variance tradeoff perspective?",
+    "options": [
+      "High bias, low variance",
+      "Low bias, high variance",
+      "High bias, high variance",
+      "Low bias, low variance"
+    ],
+    "correct_index": 1,
+    "explanation": "An overfit model fits the training data extremely well (low bias on training data) but its predictions vary greatly with different training sets (high variance), causing poor generalization to unseen data."
+  },
+  {
+    "id": 102,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which statistical test is most appropriate to compare the means of three or more independent groups simultaneously?",
+    "options": [
+      "Paired t-test",
+      "Chi-square test",
+      "ANOVA (Analysis of Variance)",
+      "Z-test for proportions"
+    ],
+    "correct_index": 2,
+    "explanation": "ANOVA is designed to test whether there is a statistically significant difference between the means of three or more independent groups, using variance-based comparison (F-statistic), avoiding inflated Type I error from multiple pairwise t-tests."
+  },
+  {
+    "id": 103,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a normal distribution with mean 100 and standard deviation 15, what is the z-score for a value of 130?",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "correct_index": 2,
+    "explanation": "z = (X - μ) / σ = (130 - 100) / 15 = 30/15 = 2."
+  },
+  {
+    "id": 104,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following is a key assumption of the Chi-square test of independence?",
+    "options": [
+      "The data must be continuous and normally distributed",
+      "Expected frequency in each cell of the contingency table should generally be at least 5",
+      "There must be exactly two categorical variables with two levels each",
+      "The sample size must be less than 30"
+    ],
+    "correct_index": 1,
+    "explanation": "The Chi-square test of independence works with categorical data, not continuous, and requires that expected cell frequencies be sufficiently large (commonly ≥5) for the chi-square approximation to be valid."
+  },
+  {
+    "id": 105,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A dataset's feature has values ranging from 10,000 to 500,000, while another feature ranges from 0 to 1. Before applying K-Nearest Neighbors, which preprocessing step is essential and why?",
+    "options": [
+      "Feature scaling — because KNN uses distance metrics, and unscaled features would dominate the distance calculation",
+      "One-hot encoding — because KNN cannot handle numeric data",
+      "Removing the feature with the smaller range entirely",
+      "No preprocessing is needed for KNN"
+    ],
+    "correct_index": 0,
+    "explanation": "KNN relies on distance calculations (e.g., Euclidean distance) between data points. Without scaling, a feature with a much larger numeric range (like 10,000-500,000) would dominate the distance computation, effectively making the other feature irrelevant."
+  },
+  {
+    "id": 106,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What does R-squared (coefficient of determination) represent in a linear regression model?",
+    "options": [
+      "The correlation between predicted and actual values",
+      "The proportion of variance in the dependent variable explained by the independent variable(s)",
+      "The average prediction error",
+      "The probability that the regression coefficients are statistically significant"
+    ],
+    "correct_index": 1,
+    "explanation": "R² indicates how much of the total variation in the dependent variable is explained by the model's independent variable(s), ranging from 0 (no explanatory power) to 1 (perfect fit)."
+  },
+  {
+    "id": 107,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following is an example of a Type II error in hypothesis testing?",
+    "options": [
+      "Concluding a new drug works when it actually doesn't",
+      "Concluding a new drug doesn't work when it actually does",
+      "Correctly concluding the drug works",
+      "Correctly concluding the drug doesn't work"
+    ],
+    "correct_index": 1,
+    "explanation": "A Type II error (false negative) occurs when we fail to reject a false null hypothesis — here, failing to detect that the drug actually works, incorrectly concluding it has no effect."
+  },
+  {
+    "id": 108,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In time series analysis, what does 'stationarity' of a series mean?",
+    "options": [
+      "The series has a constant value over time",
+      "The statistical properties of the series (mean, variance, autocorrelation) do not change over time",
+      "The series has no seasonal component",
+      "The series only increases over time"
+    ],
+    "correct_index": 1,
+    "explanation": "A stationary time series has statistical properties — mean, variance, and autocorrelation structure — that remain constant over time, which is a key assumption for many forecasting models like ARIMA."
+  },
+  {
+    "id": 109,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A dataset has 10% missing values in a numerical column, and the missingness is unrelated to any other variable (Missing Completely At Random). Which imputation approach is generally reasonable as a simple baseline?",
+    "options": [
+      "Delete the entire dataset",
+      "Impute using mean/median of the observed values",
+      "Impute using random noise unrelated to the data",
+      "Leave missing values as text 'NA' in a numeric column"
+    ],
+    "correct_index": 1,
+    "explanation": "When data is Missing Completely At Random (MCAR) and the missing proportion is modest, mean or median imputation is a reasonable simple baseline, though it can slightly underestimate variance — more advanced methods (KNN or model-based imputation) are used for more rigorous work."
+  },
+  {
+    "id": 110,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a binomial distribution with n=20 trials and probability of success p=0.3, what is the expected value (mean)?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correct_index": 1,
+    "explanation": "For a binomial distribution, mean = n × p = 20 × 0.3 = 6."
+  },
+  {
+    "id": 111,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following best explains why the median household income is often reported instead of the mean in economic statistics?",
+    "options": [
+      "The median is easier to calculate",
+      "Income distributions are typically right-skewed with high earners pulling the mean upward, so the median better represents a 'typical' household",
+      "The mean cannot be calculated for income data",
+      "The median always equals the mode for income data"
+    ],
+    "correct_index": 1,
+    "explanation": "Income data is usually right-skewed (a small number of very high earners). This drags the mean upward, making it a poor representation of a 'typical' household, whereas the median remains robust to these outliers."
+  },
+  {
+    "id": 112,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is the primary purpose of a train-test split in a machine learning workflow?",
+    "options": [
+      "To reduce the dataset size for faster computation",
+      "To evaluate how well the model generalizes to unseen data",
+      "To remove outliers from the dataset",
+      "To convert categorical variables into numerical ones"
+    ],
+    "correct_index": 1,
+    "explanation": "Splitting data into training and test sets allows the model to be trained on one portion and evaluated on a separate, unseen portion — giving an honest estimate of how the model will perform on new, real-world data rather than just memorized training data."
+  },
+  {
+    "id": 113,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a dataset, 60 out of 400 customers churned. What is the churn rate, and what does this tell us about class balance for a churn-prediction model?",
+    "options": [
+      "15% churn rate; the classes are imbalanced, which may require special handling (e.g., resampling or weighted loss)",
+      "60% churn rate; the classes are balanced",
+      "6% churn rate; the classes are perfectly balanced",
+      "40% churn rate; no special handling is needed"
+    ],
+    "correct_index": 0,
+    "explanation": "Churn rate = 60/400 = 0.15 = 15%. Since only 15% of customers churned (vs 85% who didn't), the classes are imbalanced — a model trained naively could achieve high accuracy by simply always predicting 'no churn', so techniques like SMOTE, class weighting, or precision/recall-based evaluation are needed."
+  },
+  {
+    "id": 114,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following statements about outliers is most accurate in a data science context?",
+    "options": [
+      "Outliers should always be removed from every dataset",
+      "Outliers are always the result of data entry errors",
+      "Outliers should be investigated — they may indicate errors, or they may be genuine and important extreme observations worth keeping",
+      "Outliers only occur in normally distributed data"
+    ],
+    "correct_index": 2,
+    "explanation": "Not all outliers are errors — some represent real, important phenomena (e.g., fraud cases, rare but valid extreme values). Best practice is to investigate the cause of each outlier before deciding whether to remove, cap, transform, or keep it, rather than removing them by default."
+  },
+  {
+    "id": 115,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is the key difference between standard deviation and standard error of the mean?",
+    "options": [
+      "They are the same thing",
+      "Standard deviation measures spread of individual data points; standard error measures the variability of the sample mean across repeated samples",
+      "Standard error is always larger than standard deviation",
+      "Standard deviation applies only to samples, standard error only to populations"
+    ],
+    "correct_index": 1,
+    "explanation": "Standard deviation (σ) describes how spread out individual observations are. Standard error (σ/√n) describes how much the sample mean would vary if we drew many different samples — it shrinks as sample size increases, unlike standard deviation."
+  },
+  {
+    "id": 116,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A distribution has kurtosis greater than that of a normal distribution (leptokurtic). What does this indicate?",
+    "options": [
+      "Flatter peak and thinner tails than normal",
+      "Sharper peak and fatter tails (more extreme outliers) than normal",
+      "The distribution is symmetric with no outliers",
+      "The mean and median are always equal"
+    ],
+    "correct_index": 1,
+    "explanation": "Leptokurtic distributions (kurtosis > 3, or excess kurtosis > 0) have a sharper central peak and heavier/fatter tails than a normal distribution, meaning more extreme values (outliers) are likely compared to a normal distribution."
+  },
+  {
+    "id": 117,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Why is a log transformation often applied to a right-skewed variable like income before modeling?",
+    "options": [
+      "To make the data categorical",
+      "To compress large values and reduce skewness, making the distribution closer to normal",
+      "To increase the variance of the data",
+      "Log transformation has no effect on skewness"
+    ],
+    "correct_index": 1,
+    "explanation": "Log transformation compresses the scale of large values much more than small values, which reduces right-skewness and often makes the distribution more symmetric/normal-like — helpful for models that assume normality or are sensitive to extreme values."
+  },
+  {
+    "id": 118,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In k-fold cross-validation with k=5, how many times is the model trained, and what fraction of data is used for testing in each fold?",
+    "options": [
+      "Trained once; 20% used for testing",
+      "Trained 5 times; 20% used for testing in each fold",
+      "Trained 5 times; 50% used for testing in each fold",
+      "Trained 10 times; 10% used for testing in each fold"
+    ],
+    "correct_index": 1,
+    "explanation": "In k-fold CV with k=5, the data is split into 5 equal parts. The model is trained 5 separate times, each time using 4 parts (80%) for training and the remaining 1 part (20%) for testing, rotating which part is held out."
+  },
+  {
+    "id": 119,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which regularization technique adds a penalty proportional to the absolute value of coefficients, and can shrink some coefficients exactly to zero (performing feature selection)?",
+    "options": [
+      "Ridge Regression (L2)",
+      "Lasso Regression (L1)",
+      "Elastic Net only",
+      "Ordinary Least Squares"
+    ],
+    "correct_index": 1,
+    "explanation": "Lasso (L1 regularization) adds a penalty term proportional to the sum of absolute values of coefficients. This can shrink some coefficients exactly to zero, effectively performing automatic feature selection — unlike Ridge (L2), which shrinks coefficients but rarely to exactly zero."
+  },
+  {
+    "id": 120,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is the difference between a one-tailed and a two-tailed hypothesis test?",
+    "options": [
+      "A one-tailed test checks for an effect in one specific direction; a two-tailed test checks for an effect in either direction",
+      "A two-tailed test always has more statistical power",
+      "One-tailed tests are used only for categorical data",
+      "There is no practical difference between them"
+    ],
+    "correct_index": 0,
+    "explanation": "A one-tailed test is used when the research hypothesis specifies a direction (e.g., 'greater than'), placing the entire rejection region in one tail. A two-tailed test checks for a difference in either direction, splitting the rejection region across both tails."
+  },
+  {
+    "id": 121,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which metric is generally more informative than accuracy when evaluating a binary classifier on a highly imbalanced dataset?",
+    "options": [
+      "R-squared",
+      "AUC-ROC or F1-score",
+      "Mean Absolute Error",
+      "Standard Deviation"
+    ],
+    "correct_index": 1,
+    "explanation": "On imbalanced datasets, a classifier can achieve high accuracy simply by predicting the majority class. AUC-ROC (area under the ROC curve) and F1-score (harmonic mean of precision and recall) better capture performance on the minority class."
+  },
+  {
+    "id": 122,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is 'bootstrapping' in statistics?",
+    "options": [
+      "A technique for cleaning missing data",
+      "A resampling method that draws samples with replacement from the original data to estimate a statistic's sampling distribution",
+      "A method to visualize data distributions",
+      "A type of hypothesis test for categorical variables"
+    ],
+    "correct_index": 1,
+    "explanation": "Bootstrapping repeatedly draws random samples WITH replacement from the observed dataset to build an empirical estimate of a statistic's sampling distribution (e.g., to estimate confidence intervals) without relying on strict distributional assumptions."
+  },
+  {
+    "id": 123,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "According to the Law of Large Numbers, as the number of trials in a random experiment increases, what happens to the sample average?",
+    "options": [
+      "It becomes increasingly unpredictable",
+      "It converges towards the expected (true population) value",
+      "It always converges to zero",
+      "It has no relationship with the population mean"
+    ],
+    "correct_index": 1,
+    "explanation": "The Law of Large Numbers states that as the number of independent trials increases, the sample average converges to the true expected value (population mean) — this is why larger samples generally give more reliable estimates."
+  },
+  {
+    "id": 124,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is 8?",
+    "options": [
+      "5/36",
+      "6/36",
+      "4/36",
+      "7/36"
+    ],
+    "correct_index": 0,
+    "explanation": "Ways to get sum 8: (2,6),(3,5),(4,4),(5,3),(6,2) = 5 favorable outcomes out of 36 total (6×6) equally likely outcomes. Probability = 5/36."
+  },
+  {
+    "id": 125,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is 'survivorship bias' in data analysis?",
+    "options": [
+      "A bias caused by only analyzing data from entities that 'survived' a selection process, ignoring those that didn't, leading to skewed conclusions",
+      "A bias that only occurs in medical studies",
+      "A statistical test for comparing survival rates",
+      "A method to remove outliers"
+    ],
+    "correct_index": 0,
+    "explanation": "Survivorship bias occurs when analysis focuses only on 'surviving' cases (e.g., successful companies, returning fighter planes) while ignoring failures that didn't make it into the dataset — leading to overly optimistic or misleading conclusions."
+  },
+  {
+    "id": 126,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In a dataset, feature A has a Pearson correlation of 0.05 with the target variable, but a strong non-linear relationship is visible in a scatter plot. What does this tell us?",
+    "options": [
+      "Feature A has no relationship with the target at all",
+      "Pearson correlation only captures linear relationships, so it can miss strong non-linear associations",
+      "The scatter plot must be incorrect",
+      "Feature A should be immediately removed from the dataset"
+    ],
+    "correct_index": 1,
+    "explanation": "Pearson's correlation coefficient specifically measures LINEAR association. A variable can have a strong non-linear relationship (e.g., quadratic, exponential) with the target while showing a near-zero Pearson correlation — this is a classic reason to always visualize data, not rely on correlation alone."
+  },
+  {
+    "id": 127,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What does 'degrees of freedom' refer to in a t-test comparing two independent sample means (assuming equal variances), with sample sizes n1 and n2?",
+    "options": [
+      "n1 + n2",
+      "n1 + n2 - 1",
+      "n1 + n2 - 2",
+      "n1 × n2"
+    ],
+    "correct_index": 2,
+    "explanation": "For an independent two-sample t-test (pooled variance), degrees of freedom = n1 + n2 - 2, since one degree of freedom is lost for each sample's mean being estimated."
+  },
+  {
+    "id": 128,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In probability, what is the difference between 'mutually exclusive' and 'independent' events?",
+    "options": [
+      "They are the same concept",
+      "Mutually exclusive events cannot both occur together (P(A∩B)=0); independent events' occurrence doesn't affect each other's probability (P(A∩B)=P(A)P(B))",
+      "Independent events always have zero probability of occurring together",
+      "Mutually exclusive events are always independent"
+    ],
+    "correct_index": 1,
+    "explanation": "Mutually exclusive means the events cannot happen simultaneously (e.g., a coin showing heads AND tails on one flip). Independent means one event's outcome doesn't influence the other's probability. In fact, two mutually exclusive events with non-zero probabilities are NEVER independent, since knowing one occurred makes the other impossible."
+  },
+  {
+    "id": 129,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following best describes the difference between a population parameter and a sample statistic?",
+    "options": [
+      "A parameter describes the entire population (usually unknown, fixed); a statistic describes a sample and is used to estimate the parameter",
+      "They are interchangeable terms",
+      "A statistic is always more accurate than a parameter",
+      "A parameter changes with each new sample drawn"
+    ],
+    "correct_index": 0,
+    "explanation": "A population parameter (e.g., true population mean μ) is a fixed but usually unknown value describing the whole population. A sample statistic (e.g., sample mean x̄) is computed from observed sample data and used to estimate the corresponding parameter."
+  },
+  {
+    "id": 130,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "A company reports that its average (mean) employee salary is ₹12 lakh, but the median salary is ₹7 lakh. What does this discrepancy most likely suggest?",
+    "options": [
+      "The data is symmetric with no outliers",
+      "A small number of very high earners (e.g., executives) are pulling the mean upward, indicating right-skewed salary distribution",
+      "There is a data entry error and one of the values must be wrong",
+      "Most employees earn close to ₹12 lakh"
+    ],
+    "correct_index": 1,
+    "explanation": "When the mean is substantially higher than the median, it usually indicates a right-skewed distribution — a small number of very high values (like executive salaries) inflate the mean, while the median remains representative of the 'typical' employee."
+  },
+  {
+    "id": 131,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "What is 'multicollinearity' in the context of multiple linear regression?",
+    "options": [
+      "When the target variable is categorical",
+      "When two or more independent variables are highly correlated with each other, making it difficult to isolate their individual effects on the dependent variable",
+      "When there are missing values in the dataset",
+      "When the sample size is too small"
+    ],
+    "correct_index": 1,
+    "explanation": "Multicollinearity occurs when predictor variables are highly correlated with each other. This inflates the variance of coefficient estimates, makes them unstable and hard to interpret individually, even though the model's overall predictive power may remain fine."
+  },
+  {
+    "id": 132,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "In an experiment, subjects are NOT randomly assigned to treatment and control groups, but instead self-select. What is the primary statistical concern this introduces?",
+    "options": [
+      "Higher statistical power",
+      "Selection bias, which can confound the estimated treatment effect",
+      "Guaranteed statistical significance",
+      "Reduced need for a control group"
+    ],
+    "correct_index": 1,
+    "explanation": "Without random assignment, systematic differences between groups (self-selection) can exist beyond just the treatment — for example, more motivated people may choose the treatment group, confounding any observed effect and making causal conclusions unreliable."
+  },
+  {
+    "id": 133,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "If two dice are rolled, what is the probability that at least one die shows a 6?",
+    "options": [
+      "11/36",
+      "1/6",
+      "1/3",
+      "25/36"
+    ],
+    "correct_index": 0,
+    "explanation": "P(no 6 on either die) = (5/6)×(5/6) = 25/36. P(at least one 6) = 1 - 25/36 = 11/36."
+  },
+  {
+    "id": 134,
+    "section": "Statistics",
+    "subsection": "DS/DA",
+    "question": "Which of the following is the correct interpretation of a regression coefficient β=2.5 for predictor X in the model Y = a + βX?",
+    "options": [
+      "A one-unit increase in X is associated with a 2.5-unit increase in Y, holding other variables constant",
+      "X causes a 2.5% increase in Y",
+      "The correlation between X and Y is 2.5",
+      "2.5% of the variance in Y is explained by X"
+    ],
+    "correct_index": 0,
+    "explanation": "In a linear regression Y = a + βX, the coefficient β represents the expected change in Y for a one-unit increase in X, holding all other predictors constant — it describes association, not necessarily causation."
+  },
+  {
+    "id": 135,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "In pandas, what is the difference between `df.loc[]` and `df.iloc[]`?",
+    "options": [
+      "loc uses label-based indexing; iloc uses integer position-based indexing",
+      "loc is faster than iloc in all cases",
+      "iloc can only be used on Series, not DataFrames",
+      "There is no difference; they are aliases of each other"
+    ],
+    "correct_index": 0,
+    "explanation": "`.loc[]` selects rows/columns by their label (index name or column name), while `.iloc[]` selects by integer position (0-based), regardless of the actual index labels."
+  },
+  {
+    "id": 136,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What does the following code return?\n```python\nimport numpy as np\na = np.array([1, 2, 3, 4])\nprint(a[a > 2])\n```",
+    "options": [
+      "[3, 4]",
+      "[1, 2]",
+      "[True, True]",
+      "Error"
+    ],
+    "correct_index": 0,
+    "explanation": "`a > 2` creates a boolean mask `[False, False, True, True]`. Using this mask to index `a` (boolean indexing) returns only the elements where the condition is True: `[3, 4]`."
+  },
+  {
+    "id": 137,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "In Python, what is the key difference between a list and a tuple?",
+    "options": [
+      "Lists are mutable, tuples are immutable",
+      "Tuples can only store numbers",
+      "Lists cannot be indexed",
+      "Tuples are always faster to create than lists in every scenario without exception"
+    ],
+    "correct_index": 0,
+    "explanation": "Lists can be modified after creation (append, remove, change elements), while tuples, once created, cannot have their contents changed — this immutability makes tuples hashable (usable as dict keys) while lists are not."
+  },
+  {
+    "id": 138,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "Which pandas method is used to handle missing values by filling them with a specified value?",
+    "options": [
+      "dropna()",
+      "fillna()",
+      "isnull()",
+      "replace_na()"
+    ],
+    "correct_index": 1,
+    "explanation": "`fillna(value)` replaces NaN/missing values in a DataFrame or Series with the specified value (or a computed value like mean/median). `dropna()` removes rows/columns with missing values instead."
+  },
+  {
+    "id": 139,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What will `list(range(2, 10, 2))` output?",
+    "options": [
+      "[2, 4, 6, 8]",
+      "[2, 4, 6, 8, 10]",
+      "[2, 3, 4, 5, 6, 7, 8, 9]",
+      "[0, 2, 4, 6, 8]"
+    ],
+    "correct_index": 0,
+    "explanation": "`range(start, stop, step)` generates numbers starting at 2, incrementing by 2, stopping before 10 (exclusive). Result: 2, 4, 6, 8."
+  },
+  {
+    "id": 140,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "In scikit-learn, which method is used to both fit a model/transformer to the data AND transform it in a single step?",
+    "options": [
+      "fit()",
+      "transform()",
+      "fit_transform()",
+      "predict()"
+    ],
+    "correct_index": 2,
+    "explanation": "`fit_transform()` combines `fit()` (learning parameters like mean/std from the data) and `transform()` (applying the transformation) in one call — commonly used with scalers, encoders, and vectorizers."
+  },
+  {
+    "id": 141,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What is the purpose of `GROUP BY` when used with `groupby()` in pandas, e.g. `df.groupby('category')['sales'].sum()`?",
+    "options": [
+      "It sorts the DataFrame alphabetically by category",
+      "It splits data into groups based on the 'category' column, then applies sum() to the 'sales' column within each group",
+      "It removes duplicate categories",
+      "It merges two DataFrames"
+    ],
+    "correct_index": 1,
+    "explanation": "`groupby()` follows the 'split-apply-combine' pattern: it splits the data into groups by the specified column, applies an aggregation function (here, sum) to each group, and combines the results into a summarized output."
+  },
+  {
+    "id": 142,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "Which NumPy function is used to create an array of evenly spaced values between a start and end, with a specified NUMBER of points?",
+    "options": [
+      "np.arange()",
+      "np.linspace()",
+      "np.zeros()",
+      "np.random()"
+    ],
+    "correct_index": 1,
+    "explanation": "`np.linspace(start, stop, num)` generates `num` evenly spaced values between start and stop (inclusive by default). `np.arange()` instead uses a step size, not a fixed count of points."
+  },
+  {
+    "id": 143,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What does the `axis` parameter control in `df.drop(columns=['A'], axis=1)` vs `df.mean(axis=0)`?",
+    "options": [
+      "axis=0 refers to operating along rows (down each column); axis=1 refers to operating along columns (across each row)",
+      "axis has no functional effect in pandas",
+      "axis=1 always refers to the index/row labels",
+      "axis controls the color of the output"
+    ],
+    "correct_index": 0,
+    "explanation": "In pandas, axis=0 means the operation moves down the rows (i.e., computes per-column, like `df.mean(axis=0)` giving column means), while axis=1 means the operation moves across the columns (per-row), and for `drop()`, axis=1 specifically indicates dropping columns rather than rows."
+  },
+  {
+    "id": 144,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "In Python, what is a list comprehension equivalent to `[x**2 for x in range(5) if x % 2 == 0]`?",
+    "options": [
+      "A list of squares of even numbers from 0 to 4: [0, 4, 16]",
+      "A list of all squares from 0 to 4: [0, 1, 4, 9, 16]",
+      "A list of odd numbers only: [1, 9]",
+      "A syntax error"
+    ],
+    "correct_index": 0,
+    "explanation": "range(5) gives 0,1,2,3,4. The filter `if x % 2 == 0` keeps only even x: 0, 2, 4. Squaring each: 0²=0, 2²=4, 4²=16. Result: [0, 4, 16]."
+  },
+  {
+    "id": 145,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "Which matplotlib/seaborn plot type is most appropriate for visualizing the distribution of a single continuous numerical variable?",
+    "options": [
+      "Bar chart",
+      "Histogram or KDE plot",
+      "Pie chart",
+      "Scatter plot"
+    ],
+    "correct_index": 1,
+    "explanation": "A histogram bins continuous data and shows frequency counts per bin, while a KDE (Kernel Density Estimate) plot shows a smoothed distribution curve — both are standard tools for visualizing the distribution of a single continuous variable."
+  },
+  {
+    "id": 146,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What is the output of the following code?\n```python\ndef func(a, b=5):\n    return a + b\nprint(func(3))\n```",
+    "options": [
+      "8",
+      "3",
+      "Error - missing argument",
+      "5"
+    ],
+    "correct_index": 0,
+    "explanation": "`b=5` is a default parameter value used when `b` is not explicitly provided. Calling `func(3)` uses a=3, b=5 (default), so it returns 3+5=8."
+  },
+  {
+    "id": 147,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "In scikit-learn, why is it important to fit a `StandardScaler` only on the training data and NOT on the test data?",
+    "options": [
+      "It doesn't matter, fitting on either gives the same result",
+      "Fitting on test data would leak information from the test set into the training process, causing overly optimistic performance estimates (data leakage)",
+      "StandardScaler cannot be applied to test data at all",
+      "It makes the code run faster"
+    ],
+    "correct_index": 1,
+    "explanation": "The scaler's parameters (mean, std) should be learned ONLY from training data, then applied (via `.transform()`) to both train and test sets. Fitting on test data lets information about the test distribution 'leak' into preprocessing, inflating evaluation metrics unrealistically."
+  },
+  {
+    "id": 148,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What does `df['col'].value_counts()` return in pandas?",
+    "options": [
+      "The sum of all values in the column",
+      "A Series showing the frequency count of each unique value in the column, sorted in descending order by default",
+      "The total number of rows in the DataFrame",
+      "The data type of the column"
+    ],
+    "correct_index": 1,
+    "explanation": "`value_counts()` counts how many times each unique value appears in the Series/column and returns the counts sorted from most to least frequent by default — very useful for quickly checking class distribution."
+  },
+  {
+    "id": 149,
+    "section": "Python & Libraries",
+    "subsection": "",
+    "question": "What is the primary difference between `==` and `is` when comparing two Python objects?",
+    "options": [
+      "`==` checks value equality; `is` checks whether two references point to the same object in memory",
+      "They are always interchangeable",
+      "`is` checks value equality; `==` checks memory identity",
+      "`==` only works on integers"
+    ],
+    "correct_index": 0,
+    "explanation": "`==` compares whether the VALUES of two objects are equal (can be overridden by `__eq__`). `is` compares whether both variables refer to the exact same object in memory (identity comparison) — two equal-valued lists, for example, are usually `==` but not `is` to each other."
+  },
+  {
+    "id": 150,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What is the difference between `INNER JOIN` and `LEFT JOIN`?",
+    "options": [
+      "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from the left table plus matched rows from the right (NULL where no match)",
+      "They always return the same result",
+      "LEFT JOIN returns only rows from the right table",
+      "INNER JOIN can only be used with one table"
+    ],
+    "correct_index": 0,
+    "explanation": "INNER JOIN keeps only rows where the join condition matches in BOTH tables. LEFT JOIN keeps ALL rows from the left table regardless of a match, filling in NULLs for right-table columns when there's no matching row."
+  },
+  {
+    "id": 151,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Given a table `Employees(id, name, department, salary)`, which query finds the department-wise average salary, but only for departments where the average salary exceeds 50000?",
+    "options": [
+      "SELECT department, AVG(salary) FROM Employees WHERE AVG(salary) > 50000 GROUP BY department;",
+      "SELECT department, AVG(salary) FROM Employees GROUP BY department HAVING AVG(salary) > 50000;",
+      "SELECT department, AVG(salary) FROM Employees GROUP BY department WHERE AVG(salary) > 50000;",
+      "SELECT department FROM Employees HAVING salary > 50000 GROUP BY department;"
+    ],
+    "correct_index": 1,
+    "explanation": "WHERE filters rows BEFORE aggregation and cannot reference aggregate functions like AVG(). HAVING filters groups AFTER aggregation, which is required here since we're filtering on the aggregated average salary."
+  },
+  {
+    "id": 152,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What does the SQL `RANK()` window function do differently from `ROW_NUMBER()` when there are ties in the ordering column?",
+    "options": [
+      "RANK() gives the same rank to tied rows and skips the next rank number(s); ROW_NUMBER() always assigns unique sequential numbers even for ties",
+      "They behave identically in all cases",
+      "ROW_NUMBER() skips numbers for ties; RANK() does not",
+      "RANK() can only be used without an ORDER BY clause"
+    ],
+    "correct_index": 0,
+    "explanation": "For tied values, RANK() assigns the same rank to each tied row, then skips the subsequent rank(s) (e.g., 1,2,2,4). ROW_NUMBER() ignores ties and assigns a unique, strictly increasing number to every row (e.g., 1,2,3,4), even if values are equal."
+  },
+  {
+    "id": 153,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Which SQL clause is used to remove duplicate rows from a result set?",
+    "options": [
+      "UNIQUE",
+      "DISTINCT",
+      "REMOVE DUPLICATES",
+      "FILTER"
+    ],
+    "correct_index": 1,
+    "explanation": "`SELECT DISTINCT column FROM table;` returns only unique values, eliminating duplicate rows from the result set."
+  },
+  {
+    "id": 154,
+    "section": "SQL",
+    "subsection": "",
+    "question": "In SQL, what is the purpose of a self-join?",
+    "options": [
+      "Joining a table to itself, typically used to compare rows within the same table (e.g., finding employees who share the same manager)",
+      "Joining two completely unrelated tables",
+      "A join that always returns zero rows",
+      "A join that automatically deletes duplicate rows"
+    ],
+    "correct_index": 0,
+    "explanation": "A self-join treats the same table as if it were two separate tables (using aliases) to compare rows within it — commonly used for hierarchical data, like finding an employee's manager who is also listed in the same Employees table."
+  },
+  {
+    "id": 155,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What will the following query return?\n```sql\nSELECT COUNT(*) FROM Orders WHERE customer_id IS NULL;\n```",
+    "options": [
+      "The count of orders where customer_id equals 0",
+      "The count of orders where customer_id is missing/unknown (NULL)",
+      "An error, since IS NULL is invalid syntax",
+      "The total number of rows in the Orders table"
+    ],
+    "correct_index": 1,
+    "explanation": "`IS NULL` specifically checks for NULL (missing/unknown) values — it cannot be checked using `= NULL` because NULL is not comparable using standard equality. This query counts rows where customer_id has no value."
+  },
+  {
+    "id": 156,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Which SQL window function calculates a running total (cumulative sum) of a column ordered by date?",
+    "options": [
+      "SUM(amount) OVER (ORDER BY date)",
+      "SUM(amount) GROUP BY date",
+      "TOTAL(amount) ORDER BY date",
+      "CUMSUM(amount)"
+    ],
+    "correct_index": 0,
+    "explanation": "`SUM(amount) OVER (ORDER BY date)` is a window function that computes a running/cumulative sum, adding up 'amount' for all rows up to and including the current row when ordered by date, without collapsing rows like GROUP BY would."
+  },
+  {
+    "id": 157,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What is the key difference between `UNION` and `UNION ALL` in SQL?",
+    "options": [
+      "UNION removes duplicate rows from the combined result; UNION ALL keeps all rows including duplicates",
+      "UNION ALL is always slower and less commonly used",
+      "UNION can only combine tables with the same name",
+      "There is no difference"
+    ],
+    "correct_index": 0,
+    "explanation": "UNION combines result sets from two queries and removes duplicate rows (requiring an internal sort/dedup step, making it slower). UNION ALL simply concatenates all rows from both queries, including duplicates, and is generally faster."
+  },
+  {
+    "id": 158,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Given `Students(id, name, marks)`, which query finds the student(s) with the SECOND highest marks?",
+    "options": [
+      "SELECT MAX(marks) FROM Students WHERE marks < (SELECT MAX(marks) FROM Students);",
+      "SELECT marks FROM Students ORDER BY marks DESC LIMIT 1;",
+      "SELECT MIN(marks) FROM Students;",
+      "SELECT marks FROM Students WHERE marks = 2;"
+    ],
+    "correct_index": 0,
+    "explanation": "The inner subquery finds the overall highest marks. The outer query then finds the maximum marks among all rows with marks strictly LESS than that highest value — which is the second-highest distinct mark."
+  },
+  {
+    "id": 159,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What does a `FOREIGN KEY` constraint enforce between two tables?",
+    "options": [
+      "It ensures a column's values must exist as a valid reference (primary key) in another table, maintaining referential integrity",
+      "It automatically encrypts the column",
+      "It prevents any INSERT operations on the table",
+      "It makes the column unique within its own table only, with no relation to other tables"
+    ],
+    "correct_index": 0,
+    "explanation": "A FOREIGN KEY links a column in one table to the PRIMARY KEY of another, ensuring that values in the foreign key column must correspond to an existing value in the referenced table — this maintains referential integrity between related tables."
+  },
+  {
+    "id": 160,
+    "section": "SQL",
+    "subsection": "",
+    "question": "In SQL, what is the execution order (conceptually) of clauses in a query like:\n`SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...`?",
+    "options": [
+      "SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY",
+      "FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY",
+      "WHERE → SELECT → FROM → ORDER BY → GROUP BY → HAVING",
+      "ORDER BY → SELECT → FROM → WHERE → GROUP BY → HAVING"
+    ],
+    "correct_index": 1,
+    "explanation": "Although written as SELECT...FROM...WHERE, SQL logically processes: FROM (get data) → WHERE (filter rows) → GROUP BY (group rows) → HAVING (filter groups) → SELECT (choose/compute columns) → ORDER BY (sort final output). This is why HAVING can use aggregates but WHERE cannot."
+  },
+  {
+    "id": 161,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Which SQL command is used to permanently remove a table structure and all its data from the database?",
+    "options": [
+      "DELETE",
+      "TRUNCATE",
+      "DROP",
+      "REMOVE"
+    ],
+    "correct_index": 2,
+    "explanation": "`DROP TABLE` removes the entire table structure along with all its data and associated indexes/constraints permanently. DELETE removes rows but keeps the table structure; TRUNCATE removes all rows quickly but also keeps the table structure."
+  },
+  {
+    "id": 162,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What is a Common Table Expression (CTE), introduced with the `WITH` keyword, primarily used for?",
+    "options": [
+      "To permanently store data in a new physical table",
+      "To define a temporary, named result set that can be referenced within a single query, improving readability for complex queries",
+      "To create a database index",
+      "To delete rows conditionally"
+    ],
+    "correct_index": 1,
+    "explanation": "A CTE (`WITH cte_name AS (...)`) creates a temporary named result set that exists only for the duration of the query it's part of — useful for breaking complex queries (like recursive queries or multi-step aggregations) into readable, modular pieces."
+  },
+  {
+    "id": 163,
+    "section": "SQL",
+    "subsection": "",
+    "question": "Given `Orders(order_id, customer_id, order_date)`, which query finds customers who have placed more than 3 orders?",
+    "options": [
+      "SELECT customer_id FROM Orders WHERE COUNT(order_id) > 3;",
+      "SELECT customer_id, COUNT(order_id) FROM Orders GROUP BY customer_id HAVING COUNT(order_id) > 3;",
+      "SELECT customer_id FROM Orders GROUP BY order_id HAVING COUNT(*) > 3;",
+      "SELECT COUNT(customer_id) FROM Orders WHERE order_id > 3;"
+    ],
+    "correct_index": 1,
+    "explanation": "We need to group orders by customer_id, count how many orders each customer has, then filter (using HAVING, since it's an aggregate condition) to keep only customers with more than 3 orders."
+  },
+  {
+    "id": 164,
+    "section": "SQL",
+    "subsection": "",
+    "question": "What is the primary purpose of creating an INDEX on a database column?",
+    "options": [
+      "To automatically remove duplicate values from the column",
+      "To speed up data retrieval (SELECT/search queries) on that column, at some cost to insert/update speed",
+      "To enforce that the column can only contain numeric data",
+      "To encrypt sensitive data in the column"
+    ],
+    "correct_index": 1,
+    "explanation": "An index creates a data structure (often a B-tree) that allows the database to find rows matching a search condition much faster than scanning the entire table, at the tradeoff of extra storage and slightly slower writes (since the index must also be updated)."
+  },
+  {
+    "id": 165,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "Which of the following is a supervised learning algorithm?",
+    "options": [
+      "K-Means Clustering",
+      "Linear Regression",
+      "PCA",
+      "Apriori Algorithm"
+    ],
+    "correct_index": 1,
+    "explanation": "Linear Regression learns from labeled data (input features + known output) — a supervised learning task. K-Means, PCA, and Apriori are all unsupervised techniques that don't require labeled outputs."
+  },
+  {
+    "id": 166,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "In a Random Forest model, what technique is used to introduce diversity among individual decision trees?",
+    "options": [
+      "Bootstrap sampling of data and random feature subset selection at each split",
+      "Training all trees on the exact same data and features",
+      "Using only one decision tree repeatedly",
+      "Removing all categorical features before training"
+    ],
+    "correct_index": 0,
+    "explanation": "Random Forest builds many decision trees, each trained on a bootstrap sample (random sample with replacement) of the data, and at each split considers only a random subset of features — this combination (bagging + feature randomness) reduces correlation between trees and improves generalization."
+  },
+  {
+    "id": 167,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What is the main purpose of the activation function in a neural network layer?",
+    "options": [
+      "To normalize the input data before training",
+      "To introduce non-linearity, allowing the network to learn complex, non-linear patterns",
+      "To reduce the number of layers needed",
+      "To initialize the weights randomly"
+    ],
+    "correct_index": 1,
+    "explanation": "Without non-linear activation functions (like ReLU, sigmoid, tanh), stacking multiple linear layers would mathematically collapse into a single linear transformation, no matter how many layers — activation functions let the network model complex, non-linear relationships."
+  },
+  {
+    "id": 168,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "In gradient descent, what does the 'learning rate' control?",
+    "options": [
+      "The number of features used in the model",
+      "The size of the steps taken towards minimizing the loss function during each update",
+      "The number of training epochs",
+      "The choice of the loss function"
+    ],
+    "correct_index": 1,
+    "explanation": "The learning rate scales how large a step is taken in the direction opposite to the gradient during each weight update. Too high can overshoot the minimum (or diverge); too low can make training very slow or get stuck in local minima."
+  },
+  {
+    "id": 169,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "Which technique combines predictions from multiple different models by training a 'meta-model' on their outputs?",
+    "options": [
+      "Bagging",
+      "Boosting",
+      "Stacking",
+      "Cross-validation"
+    ],
+    "correct_index": 2,
+    "explanation": "Stacking (stacked generalization) trains several base models, then uses their predictions as input features to train a final 'meta-model' that learns how to best combine them — distinct from bagging (parallel models on resampled data) and boosting (sequential models correcting prior errors)."
+  },
+  {
+    "id": 170,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What distinguishes Gradient Boosting from Random Forest in how trees are built?",
+    "options": [
+      "Gradient Boosting builds trees sequentially, each correcting the errors of the previous ones; Random Forest builds trees independently and in parallel",
+      "Random Forest builds trees sequentially; Gradient Boosting builds them in parallel",
+      "They use identical tree-building processes",
+      "Gradient Boosting cannot be used for regression tasks"
+    ],
+    "correct_index": 0,
+    "explanation": "Gradient Boosting is a sequential ensemble method — each new tree is trained to correct the residual errors of the combined previous trees. Random Forest is a parallel ensemble (bagging) method where trees are built independently and their results are averaged/voted."
+  },
+  {
+    "id": 171,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "Why is 'one-hot encoding' commonly used for nominal (unordered) categorical variables before feeding them into most ML algorithms?",
+    "options": [
+      "It converts categories into binary columns, avoiding a false sense of numeric order that simple label encoding could imply",
+      "It reduces the number of categories automatically",
+      "It is required for all types of models, including tree-based models",
+      "It converts categories into a single continuous number"
+    ],
+    "correct_index": 0,
+    "explanation": "Label encoding (e.g., Red=0, Blue=1, Green=2) implies an ordinal relationship that doesn't exist for nominal categories, which can mislead distance/coefficient-based models. One-hot encoding creates separate binary (0/1) columns per category, avoiding this false ordering."
+  },
+  {
+    "id": 172,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What is 'early stopping' in the context of training machine learning models?",
+    "options": [
+      "Stopping data collection early",
+      "Halting training when performance on a validation set stops improving, to prevent overfitting",
+      "Using a smaller dataset than originally planned",
+      "Reducing the number of features early in preprocessing"
+    ],
+    "correct_index": 1,
+    "explanation": "Early stopping monitors a validation metric during training and stops the process once it stops improving (or starts worsening), preventing the model from continuing to overfit the training data beyond the point of best generalization."
+  },
+  {
+    "id": 173,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "In a decision tree, which metric is commonly used to decide the best feature to split on, based on reducing 'impurity'?",
+    "options": [
+      "Gini Impurity or Information Gain (Entropy)",
+      "R-squared",
+      "Mean Absolute Error",
+      "Silhouette Score"
+    ],
+    "correct_index": 0,
+    "explanation": "Decision trees choose splits that most reduce impurity in the resulting child nodes, commonly measured via Gini Impurity or Information Gain (based on Entropy) — both quantify how 'mixed' the class labels are within a node."
+  },
+  {
+    "id": 174,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What problem does the 'vanishing gradient' issue cause in deep neural networks, particularly with sigmoid/tanh activations?",
+    "options": [
+      "Gradients become excessively large, causing unstable training",
+      "Gradients become very small in early layers during backpropagation, causing those layers to learn extremely slowly or not at all",
+      "The model trains too quickly and overfits immediately",
+      "It only affects the output layer, never hidden layers"
+    ],
+    "correct_index": 1,
+    "explanation": "With activations like sigmoid/tanh, gradients can shrink multiplicatively as they're backpropagated through many layers, becoming nearly zero by the time they reach early layers — effectively stalling learning in those layers. ReLU and its variants, along with techniques like batch normalization and residual connections, help mitigate this."
+  },
+  {
+    "id": 175,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What is the main goal of hyperparameter tuning (e.g., using Grid Search or Random Search)?",
+    "options": [
+      "To find the model parameters learned automatically during training, like weights",
+      "To find the best configuration of settings that are set BEFORE training (like learning rate, tree depth, number of estimators) to optimize model performance",
+      "To clean the dataset of missing values",
+      "To select which rows to include in the training set"
+    ],
+    "correct_index": 1,
+    "explanation": "Hyperparameters (learning rate, max depth, number of trees, etc.) are set before training begins and are not learned from data directly — hyperparameter tuning systematically searches combinations of these settings (via grid, random, or Bayesian search) to find the configuration that yields the best validation performance."
+  },
+  {
+    "id": 176,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "Which evaluation metric is most appropriate for a regression problem predicting house prices?",
+    "options": [
+      "Accuracy",
+      "F1-score",
+      "Root Mean Squared Error (RMSE)",
+      "Precision"
+    ],
+    "correct_index": 2,
+    "explanation": "Accuracy, F1-score, and Precision are classification metrics based on discrete class labels. RMSE measures the average magnitude of prediction error in the same units as the target variable, making it appropriate for continuous regression outputs like house prices."
+  },
+  {
+    "id": 177,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What is the purpose of 'dropout' as a regularization technique in neural networks?",
+    "options": [
+      "Randomly deactivating a fraction of neurons during each training step, forcing the network to not rely too heavily on any single neuron, reducing overfitting",
+      "Permanently removing neurons from the final trained model",
+      "Increasing the learning rate during training",
+      "Adding more layers to the network"
+    ],
+    "correct_index": 0,
+    "explanation": "Dropout randomly 'turns off' a fraction of neurons (e.g., 20-50%) during each forward/backward pass in training. This prevents co-adaptation of neurons and acts as an implicit ensemble, reducing overfitting. At inference time, all neurons are used (with appropriate scaling)."
+  },
+  {
+    "id": 178,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "In an imbalanced classification task, which resampling technique involves reducing the number of majority-class samples?",
+    "options": [
+      "Oversampling",
+      "Undersampling",
+      "SMOTE",
+      "Bootstrapping"
+    ],
+    "correct_index": 1,
+    "explanation": "Undersampling reduces the number of majority-class instances to balance the class distribution, potentially losing some information. Oversampling and SMOTE instead increase the minority class instead of reducing the majority."
+  },
+  {
+    "id": 179,
+    "section": "Machine Learning",
+    "subsection": "",
+    "question": "What does 'feature importance' from a trained Random Forest or Gradient Boosting model typically indicate?",
+    "options": [
+      "The exact causal effect of each feature on the target",
+      "A relative measure of how much each feature contributed to reducing impurity/error across the ensemble's splits, useful for understanding model behavior",
+      "The correlation between features",
+      "The number of missing values in each feature"
+    ],
+    "correct_index": 1,
+    "explanation": "Feature importance scores (e.g., based on total impurity reduction across all trees/splits where a feature is used) give a relative ranking of how influential each feature was for the model's predictions — but they indicate association with the model's decisions, not necessarily true causal effect."
+  },
+  {
+    "id": 180,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What is the primary architectural advantage of a Convolutional Neural Network (CNN) over a fully-connected network for image data?",
+    "options": [
+      "CNNs use weight sharing and local receptive fields (convolutional filters), drastically reducing parameters while capturing spatial patterns",
+      "CNNs cannot process color images",
+      "CNNs require no training data",
+      "CNNs always have fewer layers than fully-connected networks"
+    ],
+    "correct_index": 0,
+    "explanation": "CNNs apply the same small filter (kernel) across different spatial locations of an image (weight sharing), capturing local patterns like edges and textures with far fewer parameters than a fully-connected layer would need, while also being naturally suited to spatial data."
+  },
+  {
+    "id": 181,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "In an RNN (Recurrent Neural Network), what is the key architectural feature that allows it to process sequential data?",
+    "options": [
+      "It has no hidden state at all",
+      "It maintains a hidden state that is updated at each time step and passed forward, allowing information from previous steps to influence future outputs",
+      "It processes the entire sequence in a single, non-sequential step like a CNN",
+      "It uses only convolutional filters"
+    ],
+    "correct_index": 1,
+    "explanation": "RNNs process sequences one element at a time, maintaining a hidden state vector that gets updated at each step and carries forward information from earlier in the sequence — this is what allows them to model dependencies across time/sequence positions."
+  },
+  {
+    "id": 182,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What problem do LSTM (Long Short-Term Memory) networks primarily solve compared to vanilla RNNs?",
+    "options": [
+      "They eliminate the need for any activation functions",
+      "They mitigate the vanishing gradient problem, allowing the network to better learn long-range dependencies in sequences",
+      "They remove the need for a hidden state",
+      "They can only be used for image data, not text"
+    ],
+    "correct_index": 1,
+    "explanation": "LSTMs introduce gating mechanisms (input, forget, output gates) and a cell state that allow gradients to flow more easily across many time steps, addressing the vanishing gradient problem that limits vanilla RNNs from learning long-range dependencies."
+  },
+  {
+    "id": 183,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What is the core innovation of the Transformer architecture (as introduced in 'Attention Is All You Need') that allows it to outperform RNNs on many sequence tasks?",
+    "options": [
+      "It processes sequences strictly one token at a time like an RNN",
+      "The self-attention mechanism, which lets the model weigh the relevance of all positions in a sequence to each other in parallel, without recurrence",
+      "It only works with numeric, non-textual data",
+      "It has no concept of positional information"
+    ],
+    "correct_index": 1,
+    "explanation": "Self-attention allows each token in a sequence to directly attend to (weigh the importance of) every other token, capturing long-range dependencies without the sequential bottleneck of RNNs — and because there's no recurrence, computation for different positions can be parallelized, making training much faster."
+  },
+  {
+    "id": 184,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "In a neural network, why is the ReLU activation function (max(0, x)) generally preferred over sigmoid in deep hidden layers?",
+    "options": [
+      "ReLU always outputs values between 0 and 1",
+      "ReLU helps mitigate the vanishing gradient problem since its gradient is either 0 or 1 (not shrinking towards zero for large inputs), and is computationally cheaper",
+      "ReLU cannot be used in convolutional networks",
+      "Sigmoid trains faster than ReLU in deep networks"
+    ],
+    "correct_index": 1,
+    "explanation": "Sigmoid saturates for large positive/negative inputs, causing gradients to shrink towards zero (vanishing gradients) during backpropagation. ReLU's gradient is a constant 1 for positive inputs (and 0 for negative), which helps gradients flow better through deep networks, and it's cheaper to compute than exponential-based functions."
+  },
+  {
+    "id": 185,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What does 'batch normalization' do in a neural network training pipeline?",
+    "options": [
+      "It removes the need for backpropagation entirely",
+      "It normalizes the inputs to a layer (per mini-batch) to have consistent mean and variance, which stabilizes and speeds up training",
+      "It reduces the number of training examples needed to zero",
+      "It converts categorical labels into numeric ones"
+    ],
+    "correct_index": 1,
+    "explanation": "Batch normalization normalizes the activations of a layer across each mini-batch (to roughly zero mean, unit variance, then rescales with learnable parameters), which reduces internal covariate shift, allows higher learning rates, and generally speeds up and stabilizes training."
+  },
+  {
+    "id": 186,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "In the context of a Transformer, what is the role of 'positional encoding'?",
+    "options": [
+      "It replaces the need for an attention mechanism entirely",
+      "Since self-attention has no inherent notion of token order, positional encoding injects information about each token's position in the sequence",
+      "It encodes the final output labels",
+      "It is used only during inference, never during training"
+    ],
+    "correct_index": 1,
+    "explanation": "Unlike RNNs, self-attention treats input tokens as an unordered set with respect to position — it has no built-in sense of sequence order. Positional encodings (often sinusoidal or learned) are added to token embeddings to give the model information about where each token sits in the sequence."
+  },
+  {
+    "id": 187,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What is 'transfer learning' in deep learning?",
+    "options": [
+      "Training a model from scratch on a completely new task every time",
+      "Taking a model pre-trained on one (often large) dataset/task and fine-tuning it on a new, often smaller, related task, leveraging previously learned features",
+      "Transferring data between different databases",
+      "A technique used only in reinforcement learning"
+    ],
+    "correct_index": 1,
+    "explanation": "Transfer learning reuses the weights/features learned by a model on a large source dataset (e.g., ImageNet-trained CNNs, or large language models) and adapts (fine-tunes) it to a new target task, which is especially useful when the target task has limited labeled data."
+  },
+  {
+    "id": 188,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "What is the purpose of a 'loss function' in training a neural network?",
+    "options": [
+      "To visualize the network architecture",
+      "To quantify the difference between the model's predictions and the true target values, providing the signal that gradient descent uses to update weights",
+      "To determine the number of layers in the network",
+      "To store the training data"
+    ],
+    "correct_index": 1,
+    "explanation": "The loss function (e.g., cross-entropy for classification, MSE for regression) measures how far off the model's predictions are from the true labels. Its gradient with respect to the model's weights is what backpropagation uses to update those weights in the direction that reduces the loss."
+  },
+  {
+    "id": 189,
+    "section": "Deep Learning",
+    "subsection": "",
+    "question": "In image classification with CNNs, what is the role of a pooling layer (e.g., Max Pooling)?",
+    "options": [
+      "To add more trainable parameters to the network",
+      "To downsample the spatial dimensions of feature maps, reducing computation and providing some translation invariance",
+      "To convert images into text descriptions",
+      "To replace the need for convolutional layers entirely"
+    ],
+    "correct_index": 1,
+    "explanation": "Pooling layers (like Max Pooling) reduce the spatial size (height/width) of feature maps by summarizing regions (e.g., taking the max value in each 2×2 patch), which reduces the number of computations in later layers and makes the representation somewhat robust to small translations/shifts in the input."
+  },
+  {
+    "id": 190,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What does 'RAG' (Retrieval-Augmented Generation) refer to in the context of Large Language Models (LLMs)?",
+    "options": [
+      "A technique to compress model weights",
+      "A method where the LLM retrieves relevant external documents/data at inference time and uses them as context to generate more accurate, grounded responses",
+      "A type of neural network layer",
+      "A method to train the LLM from scratch on a new dataset"
+    ],
+    "correct_index": 1,
+    "explanation": "RAG combines a retrieval step (fetching relevant chunks of external knowledge, often via vector search) with a generation step (feeding that retrieved content as context to the LLM), which reduces hallucination and allows the model to answer using up-to-date or domain-specific information it wasn't necessarily trained on."
+  },
+  {
+    "id": 191,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What is a 'vector database' (e.g., Pinecone, FAISS, Chroma) primarily used for in GenAI applications?",
+    "options": [
+      "Storing raw text only in plain string format",
+      "Storing and efficiently searching high-dimensional embedding vectors, enabling similarity search (e.g., for RAG pipelines)",
+      "Storing only image files",
+      "Replacing the need for a traditional relational database entirely in every application"
+    ],
+    "correct_index": 1,
+    "explanation": "A vector database stores numerical embedding representations of text/data and supports fast approximate nearest-neighbor search, allowing systems to quickly find the most semantically similar pieces of content to a given query — a core component of RAG systems."
+  },
+  {
+    "id": 192,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What does 'temperature' control when generating text from a Large Language Model?",
+    "options": [
+      "The physical hardware temperature of the GPU",
+      "The randomness/creativity of the output — low temperature makes output more deterministic/focused, high temperature makes it more random/diverse",
+      "The number of tokens generated",
+      "The size of the model's context window"
+    ],
+    "correct_index": 1,
+    "explanation": "Temperature scales the probability distribution over the next token before sampling. A low temperature (e.g., 0.1) sharpens the distribution towards the most likely tokens (more deterministic, focused output), while a high temperature (e.g., 1.5) flattens it, increasing randomness and diversity in generated text."
+  },
+  {
+    "id": 193,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "In the context of 'Agentic AI', what distinguishes an AI agent from a simple LLM chatbot?",
+    "options": [
+      "An agent can only respond with pre-written templates",
+      "An agent can autonomously plan a sequence of steps, use external tools/APIs, observe results, and iterate towards a goal — not just respond to a single prompt",
+      "Agents cannot use any external tools",
+      "There is no meaningful difference"
+    ],
+    "correct_index": 1,
+    "explanation": "An AI agent typically follows a loop of reasoning, deciding on an action (like calling a tool/API), observing the result, and repeating until a goal is achieved — going beyond a single input-output exchange to autonomously handle multi-step tasks, unlike a basic chatbot that just replies to each message independently."
+  },
+  {
+    "id": 194,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What is 'prompt engineering'?",
+    "options": [
+      "Writing code to train a new LLM architecture from scratch",
+      "The practice of carefully designing input prompts (instructions, examples, structure) to elicit better, more accurate, or more useful outputs from an LLM",
+      "A hardware optimization technique for GPUs",
+      "A method to compress LLM weights for deployment"
+    ],
+    "correct_index": 1,
+    "explanation": "Prompt engineering involves techniques like providing clear instructions, few-shot examples, specifying output format, or breaking tasks into steps (chain-of-thought), all aimed at guiding a pre-trained LLM to produce more accurate and useful responses without changing its underlying weights."
+  },
+  {
+    "id": 195,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What is the main difference between fine-tuning an LLM and using few-shot prompting?",
+    "options": [
+      "Fine-tuning updates the model's internal weights using additional training data; few-shot prompting provides examples within the prompt itself without changing the model's weights",
+      "They are exactly the same technique",
+      "Few-shot prompting always requires more computational resources than fine-tuning",
+      "Fine-tuning cannot improve model performance on specific tasks"
+    ],
+    "correct_index": 0,
+    "explanation": "Fine-tuning involves further training the model's parameters on a task-specific dataset, permanently updating its weights. Few-shot prompting instead includes a handful of example input-output pairs directly in the prompt at inference time, leveraging the model's existing in-context learning ability without any weight updates."
+  },
+  {
+    "id": 196,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What is 'hallucination' in the context of Large Language Models?",
+    "options": [
+      "When the model refuses to answer a question",
+      "When the model generates plausible-sounding but factually incorrect or fabricated information, stated with apparent confidence",
+      "A technique to improve model creativity intentionally",
+      "A type of GPU memory error"
+    ],
+    "correct_index": 1,
+    "explanation": "Hallucination refers to an LLM producing content that sounds fluent and confident but is factually wrong, fabricated, or not grounded in any real source — a key challenge that techniques like RAG (grounding responses in retrieved real documents) aim to reduce."
+  },
+  {
+    "id": 197,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "In an agentic AI workflow using 'function calling' or 'tool use', what happens when the LLM decides to call a tool?",
+    "options": [
+      "The LLM directly executes code on the underlying operating system with no oversight",
+      "The LLM outputs a structured request (e.g., function name and arguments) which the surrounding application/orchestrator executes, then feeds the result back to the LLM as context",
+      "The conversation immediately ends",
+      "Tool use is only theoretical and not implemented in real systems"
+    ],
+    "correct_index": 1,
+    "explanation": "The LLM itself doesn't directly execute code — it generates a structured output (like a JSON object specifying a function name and parameters) indicating it wants to call a tool. The orchestrating application executes that tool/function and returns the result to the LLM, which then uses it to continue reasoning or respond."
+  },
+  {
+    "id": 198,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What is the purpose of 'chunking' when preparing documents for a RAG (Retrieval-Augmented Generation) pipeline?",
+    "options": [
+      "To delete irrelevant documents entirely",
+      "To split large documents into smaller, manageable pieces so that embeddings can be generated and relevant, appropriately-sized context can be retrieved for the LLM",
+      "To convert text into images",
+      "To translate documents into multiple languages"
+    ],
+    "correct_index": 1,
+    "explanation": "Since LLMs have a limited context window and embeddings work best on focused chunks of text, documents are split ('chunked') into smaller passages (e.g., a few hundred tokens each, often with overlap). Each chunk is embedded and indexed separately, so retrieval can return the most relevant, appropriately-sized pieces of context rather than entire lengthy documents."
+  },
+  {
+    "id": 199,
+    "section": "GenAI & Agentic AI",
+    "subsection": "",
+    "question": "What does 'context window' refer to in the context of LLMs?",
+    "options": [
+      "The physical screen size used to display the chat",
+      "The maximum number of tokens (input + output combined) the model can process/attend to in a single request",
+      "The number of users that can chat with the model simultaneously",
+      "The time window during which the model was trained"
+    ],
+    "correct_index": 1,
+    "explanation": "The context window defines the maximum amount of text (measured in tokens) that an LLM can consider at once — including the prompt, any retrieved context, conversation history, and the generated response. Content beyond this limit must be truncated or summarized."
+  }
+]
